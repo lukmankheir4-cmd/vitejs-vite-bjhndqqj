@@ -1,0 +1,1615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + JS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+cat > Themes.dc.html <<'EOF'
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Themes</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0}button{font-family:inherit}</style>
+</helmet>
+<div style="width:390px;height:844px;box-sizing:border-box;background:#0F1115;color:#F2F4F8;font-family:'Space Grotesk',Arial,sans-serif;display:flex;flex-direction:column;overflow:hidden">
+<div style="padding:20px 20px 12px;font-size:28px;font-weight:700;letter-spacing:-1px">Themes</div>
+<div style="margin:0 20px;display:flex;gap:6px;background:#171B24;border-radius:24px;padding:4px">
+<button style="flex:1;min-height:44px;border-radius:20px;border:0;background:transparent;color:#F2F4F8">Light</button>
+<button style="flex:1;min-height:44px;border-radius:20px;border:0;background:transparent;color:#F2F4F8">Night</button>
+<button style="flex:1;min-height:44px;border-radius:20px;border:0;background:{{accent}};color:#0F1115;font-weight:700">System</button>
+</div>
+<div style="padding:16px 20px 8px;font-size:14px;color:#9AA3B2">For him</div>
+<div style="margin:0 20px;display:flex;gap:10px">
+<div style="flex:1;background:#171B24;border-radius:16px;padding:12px;border:2px solid transparent"><div style="display:flex;gap:6px"><div style="width:26px;height:26px;border-radius:50%;background:#0B0B0C;border:1px solid #2A3040"></div><div style="width:26px;height:26px;border-radius:50%;background:#C0C3C8"></div><div style="width:26px;height:26px;border-radius:50%;background:#D4AF37"></div></div><div style="margin-top:8px;font-weight:700">Carbon</div><div style="font-size:12px;color:#9AA3B2">Black, silver, gold</div></div>
+<div style="flex:1;background:#171B24;border-radius:16px;padding:12px;border:2px solid transparent"><div style="display:flex;gap:6px"><div style="width:26px;height:26px;border-radius:50%;background:#E4E6EA;border:1px solid #2A3040"></div><div style="width:26px;height:26px;border-radius:50%;background:#5B616B"></div><div style="width:26px;height:26px;border-radius:50%;background:#111111"></div></div><div style="margin-top:8px;font-weight:700">Titanium</div><div style="font-size:12px;color:#9AA3B2">Silver, graphite</div></div>
+</div>
+<div style="padding:16px 20px 8px;font-size:14px;color:#9AA3B2">For her</div>
+<div style="margin:0 20px;display:flex;gap:10px">
+<div style="flex:1;background:#171B24;border-radius:16px;padding:12px;border:2px solid {{accent}}"><div style="display:flex;gap:6px"><div style="width:26px;height:26px;border-radius:50%;background:#FFFFFF;border:1px solid #2A3040"></div><div style="width:26px;height:26px;border-radius:50%;background:#D4AF37"></div><div style="width:26px;height:26px;border-radius:50%;background:#E9D9A6"></div></div><div style="margin-top:8px;font-weight:700">Champagne</div><div style="font-size:12px;color:#9AA3B2">White, soft gold</div></div>
+<div style="flex:1;background:#171B24;border-radius:16px;padding:12px;border:2px solid transparent"><div style="display:flex;gap:6px"><div style="width:26px;height:26px;border-radius:50%;background:#F7F3EE;border:1px solid #2A3040"></div><div style="width:26px;height:26px;border-radius:50%;background:#C0C3C8"></div><div style="width:26px;height:26px;border-radius:50%;background:#B76E79"></div></div><div style="margin-top:8px;font-weight:700">Pearl</div><div style="font-size:12px;color:#9AA3B2">Pearl, silver, rose gold</div></div>
+</div>
+<div style="padding:16px 20px 8px;font-size:14px;color:#9AA3B2">Accent colour</div>
+<div style="margin:0 20px;display:flex;gap:12px">
+<button aria-label="Gold" style="width:44px;height:44px;border-radius:50%;border:3px solid {{text}};background:#D4AF37"></button>
+<button aria-label="Silver" style="width:44px;height:44px;border-radius:50%;border:3px solid transparent;background:#C0C3C8"></button>
+<button aria-label="Rose gold" style="width:44px;height:44px;border-radius:50%;border:3px solid transparent;background:#B76E79"></button>
+<button aria-label="Graphite" style="width:44px;height:44px;border-radius:50%;border:3px solid transparent;background:#3A3D42"></button>
+<button aria-label="Bronze" style="width:44px;height:44px;border-radius:50%;border:3px solid transparent;background:#8C6D0F"></button>
+</div>
+<div style="margin:16px 20px 0;display:flex;flex-direction:column;gap:8px">
+<div style="display:flex;background:#171B24;border-radius:16px;padding:12px 14px"><div style="flex:1">Corner style</div><div style="color:#9AA3B2">Rounded</div></div>
+<div style="display:flex;background:#171B24;border-radius:16px;padding:12px 14px"><div style="flex:1">Chat bubbles</div><div style="color:#9AA3B2">Soft</div></div>
+<div style="display:flex;background:#171B24;border-radius:16px;padding:12px 14px"><div style="flex:1">Text size</div><div style="color:#9AA3B2">Medium</div></div>
+</div>
+<div style="flex:1"></div>
+<button style="margin:0 20px 12px;min-height:52px;border-radius:26px;border:0;background:{{accent}};color:#0F1115;font-size:16px;font-weight:700">Save theme</button>
+<div style="display:flex;justify-content:space-around;padding:8px 8px 24px;font-size:13px;color:#9AA3B2">
+<div>Feed</div><div>Chat</div><div>Map</div><div>Market</div><div style="color:{{accent}};font-weight:700">Me</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C6F432"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#C6F432' };
+}
+}
+</script>
+</body>
+</html>
+EOF
+cp Main.dc.html FeedNight.dc.html
+python3 - <<'EOF'
+import re
+files=['Main','FeedNight','Nearby','Privacy','Themes']
+rep=[('background:#0F1115','background:{{bg}}'),('color:#0F1115','color:{{onAccent}}'),('solid #0F1115','solid {{bg}}'),
+('color:{{accent}}','color:{{accentText}}'),('#F2F4F8','{{text}}'),('#171B24','{{card}}'),('#2A3040','{{line}}'),('#9AA3B2','{{muted}}'),
+('#7C5CFF','{{hero}}'),('#2E6F6A','{{slate}}'),('#8A4B2E','{{goldDeep}}'),('#4B4F8A','{{slate2}}'),('#C6F432','#D4AF37'),
+('<title>Feed</title>','<title>Feed</title>')]
+new="""const n = MODE === 'night';
+const a = this.props.accent ?? '#D4AF37';
+return { accent: a, accentText: n ? '#E6C65A' : '#7A5C06', onAccent: '#111111', bg: n ? '#0B0B0C' : '#FFFFFF', card: n ? '#17181A' : '#F1F2F4', line: n ? '#3A3D42' : '#C9CCD2', text: n ? '#F5F5F5' : '#111111', muted: n ? '#A7ABB2' : '#555B64', hero: n ? '#2A2B2E' : '#1A1A1A', slate: n ? '#4A4E55' : '#555B64', slate2: n ? '#3A3D42' : '#33363B', goldDeep: '#7A5C06' };"""
+for f in files:
+    p=f+'.dc.html'; s=open(p).read()
+    for a,b in rep: s=s.replace(a,b)
+    # the dark-mode selected-mode button text uses onAccent already; fix swatch borders in themes
+    s=s.replace("return { accent: this.props.accent ?? '#D4AF37' };", new.replace("MODE === 'night'", "MODE === '"+('night' if f=='FeedNight' else 'light')+"'"))
+    s=s.replace("<script type=\"text/x-dc\" data-dc-script","<script type=\"text/x-dc\" data-dc-script",1)
+    if f=='FeedNight': s=s.replace('<title>Feed</title>','<title>Feed night</title>')
+    if f=='Themes': s=s.replace('border:1px solid {{line}}"></div><div style="width:26px;height:26px;border-radius:50%;background:#C0C3C8">','border:1px solid #555B64"></div><div style="width:26px;height:26px;border-radius:50%;background:#C0C3C8">')
+    s=s.replace("const n = MODE === 'night';","const MODE_ = 1;\nconst n = "+("true" if f=='FeedNight' else "false")+";") if False else s
+    open(p,'w').write(s)
+EOF
+sed -i "s/n = MODE === 'night'/n = false/;s/n = MODE === 'light'/n = false/" Main.dc.html Nearby.dc.html Privacy.dc.html Themes.dc.html
+sed -i "s/n = MODE === 'night'/n = true/;s/n = MODE === 'light'/n = true/" FeedNight.dc.html
+grep -c "MODE" *.dc.html; grep -o "const n = [a-z]*" *.dc.html
+cat > canvas.json <<'EOF'
+{"v":3,"createdOnFiles":{"v":1,"at":"2026-10-13T12:00:00Z"},"title":"Super App Design","launch":{"view":"canvas"},"pages":[],"boards":{"Main.dc.html":{"x":0,"y":0,"w":390,"h":844,"title":"Feed (light)"},"FeedNight.dc.html":{"x":470,"y":0,"w":390,"h":844,"title":"Feed (night)"},"Nearby.dc.html":{"x":940,"y":0,"w":390,"h":844,"title":"Nearby"},"Privacy.dc.html":{"x":1410,"y":0,"w":390,"h":844,"title":"Privacy and plans"},"Themes.dc.html":{"x":1880,"y":0,"w":390,"h":844,"title":"Themes"}},"order":["Main.dc.html","FeedNight.dc.html","Nearby.dc.html","Privacy.dc.html","Themes.dc.html"],"notes":{},"designSystems":[]}
+EOFcd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'EOF'
+import re
+for f,night in [('Main',0),('FeedNight',1),('Nearby',0),('Privacy',0),('Themes',0)]:
+    p=f+'.dc.html'; s=open(p).read()
+    s=s.replace('family=Space+Grotesk','family=Playfair+Display:wght@600;700&family=Space+Grotesk')
+    s=s.replace('font-size:28px;font-weight:700;letter-spacing:-1px',"font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:700")
+    s=s.replace('background:{{accent}}','background:{{gold}}')
+    s=s.replace('#D4AF37','#C9A227')
+    if night:
+        v="bg:'#0A0A0A',card:'#15120B',line:'#5A4716',text:'#F7F1E1',muted:'#B9AF98',hero:'#1B160A',slate:'#3A2F12',slate2:'#2A220D',accentText:'#E6C65A'"
+    else:
+        v="bg:'#F7F4EE',card:'#FFFFFF',line:'#E2D3A3',text:'#0A0A0A',muted:'#5E5849',hero:'#0A0A0A',slate:'#3A2F12',slate2:'#1B160A',accentText:'#7A5C06'"
+    new="return { accent: a, gold: 'linear-gradient(135deg,'+a+' 0%,#F3DE8E 50%,'+a+' 100%)', onAccent: '#0A0A0A', goldDeep: '#8C6D0F', "+v+" };"
+    s=re.sub(r"return \{ accent: a,.*?\};",lambda m:new,s,flags=re.S)
+    open(p,'w').write(s)
+EOF
+grep -c "gold:" *.dc.htmlcd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+HEAD='<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TITLE</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0}button{font-family:inherit}</style>
+</helmet>'
+TAIL='</x-dc>
+<script type="text/x-dc" data-dc-script data-props='"'"'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}'"'"'>
+class Component extends DCLogic {
+renderVals() {
+const a = this.props.accent ?? "#C9A227";
+return { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A", goldDeep: "#8C6D0F", bg:"#F7F4EE",card:"#FFFFFF",line:"#E2D3A3",text:"#0A0A0A",muted:"#5E5849",accentText:"#7A5C06" };
+}
+}
+</script>
+</body>
+</html>'
+LOCK='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+R="width:390px;height:844px;box-sizing:border-box;background:{{bg}};color:{{text}};font-family:'Space Grotesk',Arial,sans-serif;display:flex;flex-direction:column;overflow:hidden"
+{ echo "$HEAD" | sed 's/TITLE/Chat/'; cat <<EOF
+<div style="$R">
+<div style="display:flex;align-items:center;gap:10px;padding:20px 12px 12px 12px;border-bottom:1px solid {{line}};background:{{card}}">
+<button aria-label="Back" style="width:44px;height:44px;border:0;background:transparent;color:{{text}};font-size:24px">&#8249;</button>
+<div style="width:40px;height:40px;border-radius:50%;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700">AM</div>
+<div style="flex:1"><div style="font-weight:700">Amina</div><div style="font-size:12px;color:{{accentText}};display:flex;align-items:center;gap:4px">$LOCK Encrypted, online</div></div>
+<button style="min-height:44px;padding:0 12px;border-radius:22px;border:1px solid {{line}};background:transparent;color:{{text}}">Call</button>
+<button style="min-height:44px;padding:0 12px;border-radius:22px;border:1px solid {{line}};background:transparent;color:{{text}}">Video</button>
+</div>
+<div style="flex:1;padding:14px 16px;display:flex;flex-direction:column;gap:10px;overflow:hidden">
+<div style="align-self:center;text-align:center;max-width:300px;background:{{card}};border:1px solid {{line}};border-radius:14px;padding:10px 14px;font-size:12px;color:{{muted}}"><span style="color:{{accentText}};display:inline-flex;vertical-align:middle">$LOCK</span> Messages and calls are end-to-end encrypted. Only you and Amina can read or hear them, not even Loop. <span style="color:{{accentText}};font-weight:700">Verify security code</span></div>
+<div style="align-self:center;font-size:12px;color:{{muted}}">Today</div>
+<div style="align-self:flex-start;max-width:260px;background:{{card}};border:1px solid {{line}};border-radius:18px 18px 18px 4px;padding:10px 14px">Hey! Are you coming to the harbour tonight?<div style="font-size:11px;color:{{muted}};margin-top:4px">18:02</div></div>
+<div style="align-self:flex-end;max-width:260px;background:{{gold}};color:{{onAccent}};border-radius:18px 18px 4px 18px;padding:10px 14px"><div style="border-left:3px solid {{onAccent}};padding-left:8px;font-size:12px;margin-bottom:6px">Amina: Are you coming to the harbour tonight?</div>Yes, see you at 8.<div style="font-size:11px;margin-top:4px;text-align:right">18:03 &#10003;&#10003; Read</div></div>
+<div style="align-self:flex-start;display:flex;align-items:center;gap:10px;background:{{card}};border:1px solid {{line}};border-radius:18px 18px 18px 4px;padding:10px 14px"><div style="width:32px;height:32px;border-radius:50%;background:{{gold}}"></div><div style="width:110px;height:20px;border-bottom:3px dotted {{accentText}}"></div><div style="font-size:12px;color:{{muted}}">0:14</div></div>
+<div style="align-self:center;font-size:12px;color:{{muted}}">Disappearing messages: 24 hours</div>
+</div>
+<div style="display:flex;align-items:center;gap:8px;padding:10px 12px 28px;background:{{card}};border-top:1px solid {{line}}">
+<button aria-label="Attach" style="width:44px;height:44px;border-radius:50%;border:1px solid {{line}};background:transparent;color:{{text}};font-size:22px">+</button>
+<div style="flex:1;min-height:44px;border-radius:22px;border:1px solid {{line}};display:flex;align-items:center;padding:0 16px;color:{{muted}}">Message</div>
+<button aria-label="Voice message" style="min-height:44px;padding:0 18px;border-radius:22px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Hold</button>
+</div>
+</div>
+EOF
+echo "$TAIL"; } > Chat.dc.html
+{ echo "$HEAD" | sed 's/TITLE/Chats/'; cat <<EOF
+<div style="$R">
+<div style="padding:20px 20px 8px;font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:700">Chats</div>
+<div style="margin:0 20px 8px;min-height:44px;border-radius:22px;border:1px solid {{line}};background:{{card}};display:flex;align-items:center;padding:0 16px;color:{{muted}}">Search</div>
+<div style="margin:0 20px 8px;font-size:12px;color:{{accentText}};display:flex;align-items:center;gap:6px">$LOCK Private one-to-one chats only. Always encrypted.</div>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;align-items:center;gap:12px;padding:12px 20px"><div style="width:52px;height:52px;border-radius:50%;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700">AM</div><div style="flex:1"><div style="font-weight:700">Amina</div><div style="font-size:13px;color:{{muted}}">Yes, see you at 8.</div></div><div style="text-align:right;font-size:12px;color:{{muted}}">18:03<div style="margin-top:4px;display:inline-block;min-width:20px;padding:2px 6px;border-radius:10px;background:{{gold}};color:{{onAccent}};font-weight:700">2</div></div></div>
+<div style="display:flex;align-items:center;gap:12px;padding:12px 20px"><div style="width:52px;height:52px;border-radius:50%;background:#3A2F12;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700">KJ</div><div style="flex:1"><div style="font-weight:700">Kenji</div><div style="font-size:13px;color:{{muted}}">Voice message, 0:22</div></div><div style="font-size:12px;color:{{muted}}">16:40</div></div>
+<div style="display:flex;align-items:center;gap:12px;padding:12px 20px"><div style="width:52px;height:52px;border-radius:50%;background:#8C6D0F;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700">LO</div><div style="flex:1"><div style="font-weight:700">Lola</div><div style="font-size:13px;color:{{muted}}">&#10003;&#10003; Sent you a photo</div></div><div style="font-size:12px;color:{{muted}}">Yesterday</div></div>
+<div style="display:flex;align-items:center;gap:12px;padding:12px 20px"><div style="width:52px;height:52px;border-radius:50%;background:#555B64;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700">DR</div><div style="flex:1"><div style="font-weight:700">Dre</div><div style="font-size:13px;color:{{muted}}">Disappearing: 24 hours</div></div><div style="font-size:12px;color:{{muted}}">Mon</div></div>
+</div>
+<div style="flex:1"></div>
+<div style="display:flex;justify-content:space-around;padding:12px 8px 24px;font-size:13px;color:{{muted}}">
+<div>Feed</div><div style="color:{{accentText}};font-weight:700">Chat</div><div>Map</div><div>Market</div><div>Me</div>
+</div>
+</div>
+EOF
+echo "$TAIL"; } > Chats.dc.html
+python3 - <<'EOF'
+import json
+c=json.load(open('canvas.json'))
+c['boards']['Chats.dc.html']={"x":2350,"y":0,"w":390,"h":844,"title":"Chats"}
+c['boards']['Chat.dc.html']={"x":2820,"y":0,"w":390,"h":844,"title":"Private chat"}
+c['order']+=['Chats.dc.html','Chat.dc.html']
+json.dump(c,open('canvas.json','w'))
+EOF
+grep -c "TITLE" Chat.dc.html Chats.dc.html; wc -c Chat.dc.html Chats.cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+cat > /tmp/gen.py <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700&family=Cormorant+Garamond:wght@600;700&family=DM+Serif+Display&family=Quicksand:wght@500;700"
+def head(t,style="body{margin:0}button{font-family:inherit}"):
+    return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+def tail(extra=""):
+    return '</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A", bg:"#F7F4EE",card:"#FFFFFF",line:"#E2D3A3",text:"#0A0A0A",muted:"#5E5849",accentText:"#7A5C06" };\n}\n}\n</script>\n</body>\n</html>\n'
+ROOT="width:390px;height:844px;box-sizing:border-box;background:{{bg}};color:{{text}};font-family:'Space Grotesk',Arial,sans-serif;display:flex;flex-direction:column;overflow:hidden"
+TITLE="font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:700"
+LOCK='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+def badge(paid):
+    if paid: return '<span style="display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:700;color:{{accentText}};border:1px solid {{line}};border-radius:8px;padding:2px 6px">'+LOCK+' Premium</span>'
+    return '<span style="font-size:10px;font-weight:700;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:2px 6px">Free</span>'
+def nav(act):
+    n=["Feed","Chat","Map","Market","Me"]
+    return '<div style="display:flex;justify-content:space-around;padding:10px 8px 22px;font-size:13px;color:{{muted}}">'+''.join('<div style="color:{{accentText}};font-weight:700">'+x+'</div>' if x==act else '<div>'+x+'</div>' for x in n)+'</div>\n'
+def dots(cols):
+    return '<div style="display:flex;gap:5px">'+''.join('<div style="width:20px;height:20px;border-radius:50%;background:'+c+';border:1px solid #9a9a9a"></div>' for c in cols)+'</div>'
+def tcard(name,sub,cols,paid,sel=False):
+    b='2px solid {{accent}}' if sel else '2px solid {{line}}'
+    return '<div style="flex:1;background:{{card}};border-radius:16px;padding:10px;border:'+b+'"><div style="display:flex;justify-content:space-between;align-items:center">'+dots(cols)+badge(paid)+'</div><div style="margin-top:6px;font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:{{muted}}">'+sub+'</div></div>'
+def row(a,b): return '<div style="margin:0 20px 10px;display:flex;gap:10px">'+a+b+'</div>\n'
+def label(t): return '<div style="padding:10px 20px 8px;font-size:13px;color:{{muted}}">'+t+'</div>\n'
+
+# Themes
+s=head("Themes")+'<div style="'+ROOT+'">\n<div style="padding:20px 20px 10px;'+TITLE+'">Themes</div>\n'
+s+='<div style="margin:0 20px;display:flex;gap:6px;background:{{card}};border:1px solid {{line}};border-radius:24px;padding:4px"><button style="flex:1;min-height:44px;border-radius:20px;border:0;background:transparent;color:{{text}}">Light</button><button style="flex:1;min-height:44px;border-radius:20px;border:0;background:transparent;color:{{text}}">Night</button><button style="flex:1;min-height:44px;border-radius:20px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">System</button></div>\n'
+s+=label("Free themes")
+s+=row(tcard("Carbon","For him",["#0A0A0A","#C0C3C8","#C9A227"],0),tcard("Champagne","For her",["#FFFFFF","#C9A227","#E9D9A6"],0,1))
+s+=row(tcard("Titanium","For him",["#E4E6EA","#5B616B","#111111"],0),tcard("Pearl","For her",["#F7F3EE","#C0C3C8","#B76E79"],0))
+s+=label("Premium themes")
+s+=row(tcard("Royal Noir","For everyone",["#0A0A0A","#F3DE8E","#8C6D0F"],1),tcard("Liquid Glass","For everyone",["#EAE6DA","#FFFFFF","#C9A227"],1))
+s+=row(tcard("Rose Gold Luxe","For her",["#1A0F12","#B76E79","#F3DE8E"],1),tcard("Midnight Silver","For him",["#0B1020","#C0C3C8","#E6E8EC"],1))
+s+='<div style="flex:1"></div>\n<button style="margin:0 20px 10px;min-height:52px;border-radius:26px;border:0;background:{{gold}};color:{{onAccent}};font-size:16px;font-weight:700">Unlock all themes, [PRICE] / month</button>\n'+nav("Me")+'</div>\n'+tail()
+open('Themes.dc.html','w').write(s)
+
+# Customize
+def ftile(name,fam,paid):
+    return '<div style="flex:1;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:10px;text-align:center"><div style="font-family:'+fam+';font-size:28px;line-height:34px">Aa</div><div style="font-size:11px;color:{{muted}};margin:2px 0 6px">'+name+'</div>'+badge(paid)+'</div>'
+def btile(name,bg,fg,paid,glass=False):
+    out='background:'+bg+';color:'+fg+(';backdrop-filter:blur(8px);border:1px solid {{line}}' if glass else '')
+    return '<div style="flex:1;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:10px"><div style="display:flex;flex-direction:column;gap:4px"><div style="align-self:flex-start;background:#E9E6DF;color:#0A0A0A;border-radius:10px 10px 10px 2px;padding:3px 8px;font-size:11px">Hi</div><div style="align-self:flex-end;border-radius:10px 10px 2px 10px;padding:3px 8px;font-size:11px;'+out+'">Hello</div></div><div style="font-size:12px;font-weight:700;margin:6px 0 4px">'+name+'</div>'+badge(paid)+'</div>'
+s=head("Customize")+'<div style="'+ROOT+'">\n<div style="padding:20px 20px 4px;'+TITLE+'">Customize</div>\n'
+s+=label("Fonts")
+s+=row(ftile("Space Grotesk","'Space Grotesk'",0),ftile("Playfair","'Playfair Display'",0))+'<div style="margin:0 20px 10px;display:flex;gap:10px">'+ftile("Sora","'Sora'",0)+ftile("Cormorant","'Cormorant Garamond'",1)+'</div>\n'
+s+=row(ftile("DM Serif","'DM Serif Display'",1),ftile("Quicksand","'Quicksand'",1))
+s+=label("Chat bubble colours")
+s+=row(btile("Gold","linear-gradient(135deg,#C9A227,#F3DE8E)","#0A0A0A",0),btile("Mint","#CDEBC4","#0A0A0A",0))
+s+=row(btile("Sky","#BFE0FF","#0A0A0A",1),btile("Blush","#F7C9D4","#0A0A0A",1))
+s+='<div style="margin:6px 20px 0;display:flex;align-items:center;gap:12px;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:12px 14px"><div style="flex:1"><div style="font-weight:700">Liquid glass</div><div style="font-size:12px;color:{{muted}}">Frosted, see-through panels</div></div>'+badge(1)+'</div>\n'
+s+='<div style="flex:1"></div>\n'+nav("Me")+'</div>\n'+tail()
+open('Customize.dc.html','w').write(s)
+
+# Glass chat
+G=head("Liquid glass chat",".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);border:1px solid rgba(255,255,255,0.3);box-shadow:inset 0 1px 0 rgba(255,255,255,0.45),0 8px 24px rgba(0,0,0,0.35)}.go{background:rgba(201,162,39,0.5)}body{margin:0}button{font-family:inherit}")
+W="color:#fff"
+G+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+G+='<div style="position:absolute;left:-60px;top:40px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.75;filter:blur(40px)"></div><div style="position:absolute;right:-90px;top:330px;width:280px;height:280px;border-radius:50%;background:#8C8F96;opacity:0.7;filter:blur(40px)"></div><div style="position:absolute;left:20px;bottom:40px;width:260px;height:260px;border-radius:50%;background:#F3DE8E;opacity:0.5;filter:blur(40px)"></div>\n'
+G+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:20px 14px 20px">\n'
+G+='<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:30px;padding:8px 10px"><button aria-label="Back" style="width:44px;height:44px;border:0;background:transparent;color:#fff;font-size:24px">&#8249;</button><div style="width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;font-weight:700">AM</div><div style="flex:1"><div style="font-weight:700">Amina</div><div style="font-size:12px;display:flex;align-items:center;gap:4px">'+LOCK+' End-to-end encrypted</div></div><button style="min-height:44px;padding:0 14px;border-radius:22px;border:0;background:rgba(255,255,255,0.2);color:#fff">Call</button></div>\n'
+G+='<div style="flex:1;display:flex;flex-direction:column;gap:10px;padding:16px 4px;overflow:hidden"><div style="align-self:center;font-size:12px;color:rgba(255,255,255,0.85)">Today</div>'
+G+='<div class="g" style="align-self:flex-start;max-width:250px;border-radius:20px 20px 20px 6px;padding:10px 14px">Hey! Are you coming to the harbour tonight?</div>'
+G+='<div class="g go" style="align-self:flex-end;max-width:250px;border-radius:20px 20px 6px 20px;padding:10px 14px">Yes, see you at 8.<div style="font-size:11px;text-align:right;margin-top:4px">18:03 &#10003;&#10003; Read</div></div>'
+G+='<div class="g" style="align-self:flex-start;border-radius:20px 20px 20px 6px;padding:10px 14px">Bring the gold camera!</div></div>\n'
+G+='<div class="g" style="display:flex;align-items:center;gap:8px;border-radius:30px;padding:6px;margin-bottom:10px"><button aria-label="Attach" style="width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,0.2);color:#fff;font-size:22px">+</button><div style="flex:1;color:rgba(255,255,255,0.85)">Message</div><button style="min-height:44px;padding:0 18px;border-radius:22px;border:0;background:#F3DE8E;color:#0A0A0A;font-weight:700">Send</button></div>\n'
+G+='<div class="g" style="display:flex;justify-content:space-around;border-radius:30px;padding:14px 8px;font-size:13px"><div>Feed</div><div style="font-weight:700;color:#F3DE8E">Chat</div><div>Map</div><div>Market</div><div>Me</div></div>\n</div></div>\n'+tail()
+open('GlassChat.dc.html','w').write(G)
+
+c=json.load(open('canvas.json'))
+c['boards']['Customize.dc.html']={"x":3290,"y":0,"w":390,"h":844,"title":"Customize"}
+c['boards']['GlassChat.dc.html']={"x":3760,"y":0,"w":390,"h":844,"title":"Liquid glass chat"}
+for k in ['Customize.dc.html','GlassChat.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+PYEOF
+python3 /tmp/gen.py && wc -c Themes.dc.html Customize.dc.html GlassChat.dc.htmldc.html canvas.json
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+cat > /tmp/gen2.py <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+def head(t):
+    return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.16);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.3)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+def tail():
+    return '</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+BADGE='<svg width="16" height="16" viewBox="0 0 24 24" aria-label="Verified"><path fill="#0A0A0A" stroke="#C9A227" stroke-width="1" d="M12 2l2.4 2.1 3.1-.5 1 3 2.8 1.4-.7 3.1 1.8 2.6-2.4 2.2.2 3.1-3 .6-1.5 2.8-3-1-2.9 1.1-1.6-2.7-3.1-.5.1-3.1-2.4-2.3 1.8-2.5-.8-3 2.8-1.5.9-3 3.1.4z"/><path stroke="#fff" stroke-width="2" fill="none" d="M8.5 12.2l2.3 2.3 4.7-5" /></svg>'
+# Profile screen
+s=head("Profile")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:-40px;width:320px;height:320px;border-radius:50%;background:#C9A227;opacity:0.7;filter:blur(50px)"></div><div style="position:absolute;right:-80px;top:260px;width:280px;height:280px;border-radius:50%;background:#8C8F96;opacity:0.6;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="height:180px;background:linear-gradient(135deg,#1a1a1a,#C9A227 140%);position:relative"><button aria-label="Edit banner" style="position:absolute;right:14px;top:36px;min-height:36px;padding:0 12px;border-radius:18px;border:0;background:rgba(0,0,0,0.5);color:#fff;font-size:12px">Edit banner</button></div>\n'
+s+='<div style="padding:0 18px;margin-top:-52px">\n'
+s+='<div style="width:100px;height:100px;border-radius:50%;border:4px solid #0A0A0A;background:#1a1a1a;position:relative;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:26px"><div style="position:absolute;inset:0;border-radius:50%;border:3px solid {{accent}}"></div>LK<div style="position:absolute;bottom:-2px;right:-2px;width:26px;height:26px;border-radius:50%;background:{{gold}};display:flex;align-items:center;justify-content:center;color:#0A0A0A;font-size:14px">&#9658;</div></div>\n'
+s+='<div style="display:flex;align-items:center;gap:6px;margin-top:10px"><div style="font-weight:700;font-size:20px">Lukman</div>'+BADGE+'<span style="font-size:11px;background:rgba(255,255,255,0.15);border-radius:10px;padding:2px 8px">Private</span></div>\n'
+s+='<div style="font-size:13px;color:rgba(255,255,255,0.65)">@lukman &middot; 1.2 km from you</div>\n'
+s+='<div style="display:flex;gap:18px;margin-top:10px;font-size:13px"><div><b>248</b> posts</div><div><b>5.4k</b> followers</div><div><b>312</b> following</div></div>\n'
+s+='<div style="display:flex;gap:8px;margin-top:12px"><button style="flex:1;min-height:44px;border-radius:22px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Edit profile</button><button style="min-height:44px;padding:0 16px;border-radius:22px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff">Share</button></div>\n'
+s+='<div style="display:flex;gap:10px;margin-top:14px;overflow:hidden">'
+for n,c in [("Goals","#C9A227"),("Trips","#8C8F96"),("Friends","#B76E79")]:
+    s+='<div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.7)"><div style="width:56px;height:56px;border-radius:50%;background:'+c+';border:2px solid rgba(255,255,255,0.4)"></div>'+n+'</div>'
+s+='<div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.7)"><div style="width:56px;height:56px;border-radius:50%;border:2px dashed rgba(255,255,255,0.5);display:flex;align-items:center;justify-content:center;font-size:20px">+</div>New</div></div>\n'
+s+='</div>\n<div class="g" style="margin:16px 18px 0;border-radius:20px;display:flex;overflow:hidden"><div style="flex:1;text-align:center;padding:10px;font-weight:700;border-bottom:2px solid {{accent}}">Posts</div><div style="flex:1;text-align:center;padding:10px;color:rgba(255,255,255,0.6)">Reels</div><div style="flex:1;text-align:center;padding:10px;color:rgba(255,255,255,0.6)">Tagged</div></div>\n'
+s+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3px;padding:10px 16px;flex:1;overflow:hidden">'
+for c in ["#1a1a1a","#2a2510","#1a1a1a","#2a2510","#1a1a1a","#2a2510"]:
+    s+='<div style="aspect-ratio:1;background:'+c+';border-radius:6px"></div>'
+s+='</div>\n'
+s+='<div class="g" style="display:flex;justify-content:space-around;margin:0 10px 14px;border-radius:30px;padding:12px 8px;font-size:13px"><div>Feed</div><div>Chat</div><div>Map</div><div>Market</div><div style="font-weight:700;color:{{accent}}">Me</div></div>\n'
+s+='</div></div>\n'+tail()
+open('Profile.dc.html','w').write(s)
+
+# Privacy & Security screen
+s=head("Privacy and security")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.65;filter:blur(50px)"></div><div style="position:absolute;right:-90px;bottom:120px;width:280px;height:280px;border-radius:50%;background:#555B64;opacity:0.6;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:20px 16px 14px">\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700;margin-bottom:10px">Privacy &amp; security</div>\n'
+def toggle(label,sub,on):
+    knob='right:3px;background:{{gold}}' if on else 'left:3px;background:#8c8f96'
+    track='{{gold}}' if False else ('rgba(201,162,39,0.5)' if on else 'rgba(255,255,255,0.25)')
+    return '<div class="g" style="display:flex;align-items:center;gap:12px;border-radius:16px;padding:12px 14px;margin-bottom:8px"><div style="flex:1"><div style="font-weight:700;font-size:14px">'+label+'</div><div style="font-size:12px;color:rgba(255,255,255,0.65)">'+sub+'</div></div><div style="width:46px;height:26px;border-radius:13px;background:'+track+';position:relative"><div style="position:absolute;top:3px;width:20px;height:20px;border-radius:50%;'+knob+'"></div></div></div>\n'
+s+=toggle("Account privacy","Private: approve who follows you",True)
+s+=toggle("Ghost mode","Hide your live location from everyone",False)
+s+=toggle("Live location","Share distance with friends",True)
+s+=toggle("Active status","Golden dot when you're online",True)
+s+=toggle("Read receipts","Let others see you've read their message",True)
+s+=toggle("Who can find me","Anyone, or contacts by phone / email only",True)
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.55);margin:2px 2px 10px">Last seen: Today at 18:03 &middot; visible to people you follow back</div>\n'
+s+='<div class="g" style="border-radius:16px;padding:14px;margin-bottom:8px"><div style="font-weight:700;font-size:14px">App &amp; chat lock</div><div style="font-size:12px;color:rgba(255,255,255,0.65);margin:4px 0 8px">Uses your phone\'s Face ID, fingerprint or passcode</div><div style="display:flex;gap:8px"><button style="flex:1;min-height:40px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Lock whole app</button><button style="flex:1;min-height:40px;border-radius:14px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-size:13px">Lock chats only</button></div></div>\n'
+s+='<div class="g" style="border-radius:16px;padding:14px"><div style="display:flex;align-items:center;gap:8px"><div style="font-weight:700;font-size:14px">Two-step verification</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:2px 6px;font-weight:700">On</span></div><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px">Code sent to your email or phone, valid for 90 seconds</div><div style="margin-top:10px;display:flex;gap:8px;justify-content:center">'
+for d in "248-16":
+    if d=="-":
+        s+='<div style="width:10px"></div>'
+    else:
+        s+='<div style="width:38px;height:46px;border-radius:10px;border:1px solid rgba(255,255,255,0.35);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700">'+d+'</div>'
+s+='</div><div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.6);margin-top:8px">Expires in 0:48</div></div>\n'
+s+='<div style="flex:1"></div>\n<div class="g" style="display:flex;justify-content:space-around;border-radius:30px;padding:12px 8px;font-size:13px"><div>Feed</div><div>Chat</div><div>Map</div><div>Market</div><div style="font-weight:700;color:{{accent}}">Me</div></div>\n'
+s+='</div></div>\n'+tail()
+open('PrivacySecurity.dc.html','w').write(s)
+
+c=json.load(open('canvas.json'))
+c['boards']['Profile.dc.html']={"x":4230,"y":0,"w":390,"h":844,"title":"Profile"}
+c['boards']['PrivacySecurity.dc.html']={"x":4700,"y":0,"w":390,"h":844,"title":"Privacy and security"}
+for k in ['Profile.dc.html','PrivacySecurity.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+PYEOF
+python3 /tmp/gen2.py && wc -c Profile.dc.html PrivacySecurity.dc.html
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Chat.dc.html').read()
+i=s.find('<div style=\"display:flex;align-items:center;gap:10px;padding:20px 12px')
+print(s[i:i+900])
+"
+{"returncode":0,"stdout":"<div style=\"display:flex;align-items:center;gap:10px;padding:20px 12px 12px 12px;border-bottom:1px solid {{line}};background:{{card}}\">\n<button aria-label=\"Back\" style=\"width:44px;height:44px;border:0;background:transparent;color:{{text}};font-size:24px\">&#8249;</button>\n<div style=\"width:40px;height:40px;border-radius:50%;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700\">AM</div>\n<div style=\"flex:1\"><div style=\"font-weight:700\">Amina</div><div style=\"font-size:12px;color:{{accentText}};display:flex;align-items:center;gap:4px\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Encrypted, online</div></div>\n<button style=\"min-height:44px;padding:0 12px;border-radius:22px;border:1px\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Chat.dc.html').read()
+old='<div style=\"display:flex;align-items:center;gap:10px;padding:20px 12px 12px 12px;border-bottom:1px solid {{line}};background:{{card}}\">\n<button aria-label=\"Back\" style=\"width:44px;height:44px;border:0;background:transparent;color:{{text}};font-size:24px\">&#8249;</button>\n<div style=\"width:40px;height:40px;border-radius:50%;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700\">AM</div>\n<div style=\"flex:1\"><div style=\"font-weight:700\">Amina</div><div style=\"font-size:12px;color:{{accentText}};display:flex;align-items:center;gap:4px\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Encrypted, online</div></div>\n<button style=\"min-height:44px;padding:0 12px;border-radius:22px;border:1px solid {{line}};background:transparent;color:{{text}}\">Call</button>\n<button style=\"min-height:44px;padding:0 12px;border-radius:22px;border:1px solid {{line}};background:transparent;color:{{text}}\">Video</button>\n</div>'
+assert old in s, 'not found'
+new='<div style=\"display:flex;align-items:center;gap:10px;padding:18px 12px 10px 10px;background:{{bg}}\">\n<button aria-label=\"Back\" style=\"width:44px;height:44px;border-radius:14px;border:0;background:{{card}};box-shadow:0 1px 2px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;color:{{text}};font-size:22px\">&#8249;</button>\n<div style=\"width:38px;height:38px;border-radius:50%;background:#0A0A0A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px\">AM</div>\n<div style=\"flex:1\"><div style=\"font-weight:700\">Amina</div><div style=\"font-size:12px;color:{{accentText}};display:flex;align-items:center;gap:4px\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Encrypted, online</div></div>\n<button aria-label=\"Call\" style=\"width:40px;height:40px;border-radius:14px;border:0;background:{{card}};box-shadow:0 1px 2px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M6.6 10.8c1.4 2.9 3.7 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z\"/></svg></button>\n<button aria-label=\"Video call\" style=\"width:40px;height:40px;border-radius:14px;border:0;background:{{card}};box-shadow:0 1px 2px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"2\" y=\"7\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M16 10l6-3v10l-6-3z\"/></svg></button>\n</div>'
+s=s.replace(old,new)
+open('Chat.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Profile.dc.html').read()
+old='<div style=\"height:180px;background:linear-gradient(135deg,#1a1a1a,#C9A227 140%);position:relative\"><button aria-label=\"Edit banner\" style=\"position:absolute;right:14px;top:36px;min-height:36px;padding:0 12px;border-radius:18px;border:0;background:rgba(0,0,0,0.5);color:#fff;font-size:12px\">Edit banner</button></div>'
+assert old in s
+new='''<div style=\"height:200px;background:linear-gradient(135deg,#1a1a1a,#C9A227 140%);position:relative\">
+<div style=\"position:absolute;left:14px;right:14px;top:18px;display:flex;align-items:center;justify-content:space-between\">
+<button aria-label=\"Menu\" style=\"width:40px;height:40px;border-radius:13px;border:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\"><path d=\"M3 6h18M3 12h18M3 18h18\"/></svg></button>
+<div style=\"display:flex;gap:8px\">
+<button aria-label=\"Share profile\" style=\"width:40px;height:40px;border-radius:13px;border:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\"><circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><path d=\"M8.6 10.6l6.8-3.8M8.6 13.4l6.8 3.8\"/></svg></button>
+<button aria-label=\"More\" style=\"width:40px;height:40px;border-radius:13px;border:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center\"><svg width=\"4\" height=\"18\" viewBox=\"0 0 4 18\" fill=\"#fff\"><circle cx=\"2\" cy=\"2\" r=\"2\"/><circle cx=\"2\" cy=\"9\" r=\"2\"/><circle cx=\"2\" cy=\"16\" r=\"2\"/></svg></button>
+</div>
+</div>
+<div style=\"position:absolute;left:14px;right:14px;bottom:10px;display:flex;align-items:center;justify-content:space-between\">
+<button aria-label=\"Add story\" style=\"min-height:36px;padding:0 12px;border-radius:16px;border:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(6px);color:#fff;font-size:12px;display:flex;align-items:center;gap:5px\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.4\"><path d=\"M12 5v14M5 12h14\"/></svg>Add story</button>
+<button aria-label=\"Edit banner\" style=\"min-height:36px;padding:0 12px;border-radius:16px;border:0;background:rgba(0,0,0,0.45);backdrop-filter:blur(6px);color:#fff;font-size:12px\">Edit banner</button>
+</div>
+</div>'''
+s=s.replace(old,new)
+open('Profile.dc.html','w').write(s)
+print('ok')
+"
+
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Share</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+def app(name,bg,fg,letter):
+    return ('<div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.75)">'
+            '<div style="width:54px;height:54px;border-radius:16px;background:'+bg+';display:flex;align-items:center;justify-content:center;font-weight:700;color:'+fg+';font-size:18px">'+letter+'</div>'
+            '<div style="margin-top:6px">'+name+'</div></div>')
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A;display:flex;flex-direction:column;justify-content:flex-end">\n'
+s+='<div style="position:absolute;inset:0;background:rgba(0,0,0,0.55)"></div>\n'
+s+='<div style="position:relative;background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(26px) saturate(170%);backdrop-filter:blur(26px) saturate(170%);border-top:1px solid rgba(255,255,255,0.3);box-shadow:0 -8px 30px rgba(0,0,0,0.4);border-radius:26px 26px 0 0;padding:14px 16px 26px">\n'
+s+='<div style="width:40px;height:4px;border-radius:2px;background:rgba(255,255,255,0.4);margin:0 auto 14px"></div>\n'
+s+='<div style="display:flex;align-items:center;gap:10px;padding:0 4px 14px;border-bottom:1px solid rgba(255,255,255,0.18)"><div style="width:44px;height:44px;border-radius:10px;background:#1A1A1A;border:1px solid {{accent}}"></div><div style="flex:1"><div style="font-weight:700;font-size:14px">Sunset run by the harbour</div><div style="font-size:12px;color:rgba(255,255,255,0.6)">Share post</div></div></div>\n'
+s+='<div style="padding:14px 2px 6px;font-size:12px;color:rgba(255,255,255,0.6)">Share to your story</div>\n'
+s+='<div style="display:flex;gap:16px;padding:0 2px 8px;overflow:hidden">'
+s+=app("WhatsApp\nStatus","#1EBE57","#fff","W")
+s+=app("IG Story","linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)","#fff","I")
+s+=app("Loop story","{{gold}}","{{onAccent}}","L")
+s+='</div>\n'
+s+='<div style="padding:14px 2px 10px;font-size:12px;color:rgba(255,255,255,0.6)">Send to a chat or app</div>\n'
+s+='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:0 2px">'
+s+=app("WhatsApp","#1EBE57","#fff","W")
+s+=app("Instagram","linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)","#fff","I")
+s+=app("Telegram","#27A7E7","#fff","T")
+s+=app("Threads","#0A0A0A","#fff","@")
+s+=app("X","#0A0A0A","#fff","X")
+s+=app("Snapchat","#FFFC00","#0A0A0A","S")
+s+=app("Loop friend","{{gold}}","{{onAccent}}","AM")
+s+=app("Copy link","rgba(255,255,255,0.14)","#fff","&#128279;")
+s+='</div>\n'
+s+='<button style="width:100%;margin-top:18px;min-height:48px;border-radius:24px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-weight:700">Cancel</button>\n'
+s+='</div></div>\n'+tail
+open('Share.dc.html','w').write(s)
+
+c=json.load(open('canvas.json'))
+c['boards']['Share.dc.html']={"x":5170,"y":0,"w":390,"h":844,"title":"Share sheet"}
+if 'Share.dc.html' not in c['order']: c['order'].append('Share.dc.html')
+json.dump(c,open('canvas.json','w'))
+print("ok", len(open('Share.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>AI assistant</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);border:1px solid rgba(255,255,255,0.28)}body{margin:0}button{font-family:inherit}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:60px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.65;filter:blur(50px)"></div><div style="position:absolute;right:-90px;bottom:160px;width:300px;height:300px;border-radius:50%;background:#8C8F96;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 16px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Close" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:18px">&#10005;</button><div style="font-weight:700">Rename your assistant</div><button aria-label="Settings" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff">&#9881;</button></div>\n'
+s+='<div style="text-align:center;margin-top:26px"><div style="width:120px;height:120px;border-radius:50%;margin:0 auto;background:{{gold}};display:flex;align-items:center;justify-content:center;animation:pulse 2.4s ease-in-out infinite;box-shadow:0 0 40px rgba(201,162,39,0.55)"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/><path d="M12 18v3"/></svg></div>'
+s+='<div style="margin-top:14px;font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700">Nova</div><div style="font-size:12px;color:rgba(255,255,255,0.6)">Your name &middot; always listening when you tap</div></div>\n'
+s+='<div class="g" style="margin-top:18px;border-radius:16px;padding:12px 14px"><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-bottom:6px">Give your assistant a name</div><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;min-height:40px;border-radius:12px;background:rgba(0,0,0,0.3);display:flex;align-items:center;padding:0 12px">Nova</div><button style="min-height:40px;padding:0 14px;border-radius:12px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Save</button></div></div>\n'
+s+='<div style="margin-top:18px;display:flex;flex-direction:column;gap:8px;overflow:hidden">'
+for icon,label,sub in [
+ ('&#128266;','"Nova, send this reel to Kenji"','Does it instantly'),
+ ('&#128247;','"Nova, filter my last 10 photos"','Batch edits'),
+ ('&#128737;','"Nova, turn on ghost mode"','Changes settings'),
+ ('&#128250;','"Nova, go live in 5 minutes"','Schedules a stream'),
+]:
+    s+='<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:10px 12px"><div style="width:30px;text-align:center">'+icon+'</div><div style="flex:1"><div style="font-size:13px;font-weight:600">'+label+'</div><div style="font-size:11px;color:rgba(255,255,255,0.6)">'+sub+'</div></div></div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div class="g" style="border-radius:20px;padding:14px;display:flex;align-items:center;gap:10px"><div style="width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center">&#127909;</div><div style="flex:1;font-size:13px">Share your screen so Nova can see and help</div><div style="width:40px;height:22px;border-radius:11px;background:rgba(201,162,39,0.5);position:relative"><div style="position:absolute;top:2px;right:2px;width:18px;height:18px;border-radius:50%;background:{{gold}}"></div></div></div>\n'
+s+='<div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-top:16px"><div style="width:4px;height:14px;border-radius:2px;background:{{accent}}"></div><div style="width:4px;height:26px;border-radius:2px;background:{{accent}}"></div><div style="width:4px;height:10px;border-radius:2px;background:{{accent}}"></div><div style="width:4px;height:30px;border-radius:2px;background:{{accent}}"></div><div style="width:4px;height:16px;border-radius:2px;background:{{accent}}"></div><div style="width:4px;height:22px;border-radius:2px;background:{{accent}}"></div></div>\n'
+s+='<div style="text-align:center;font-size:12px;color:rgba(255,255,255,0.6);margin-top:8px">Listening &middot; hold anywhere to talk, like Siri</div>\n'
+s+='</div></div>\n'+tail
+open('Assistant.dc.html','w').write(s)
+
+c=json.load(open('canvas.json'))
+c['boards']['Assistant.dc.html']={"x":5640,"y":0,"w":390,"h":844,"title":"AI assistant"}
+if 'Assistant.dc.html' not in c['order']: c['order'].append('Assistant.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('Assistant.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Assistant.dc.html').read()
+old='''<div style=\"flex:1\"></div>
+<div class=\"g\" style=\"border-radius:20px;padding:14px;display:flex;align-items:center;gap:10px\"><div style=\"width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center\">&#127909;</div><div style=\"flex:1;font-size:13px\">Share your screen so Nova can see and help</div><div style=\"width:40px;height:22px;border-radius:11px;background:rgba(201,162,39,0.5);position:relative\"><div style=\"position:absolute;top:2px;right:2px;width:18px;height:18px;border-radius:50%;background:{{gold}}\"></div></div></div>'''
+assert old in s
+new='''<div class=\"g\" style=\"margin-top:14px;border-radius:16px;padding:14px;border:1px solid {{accent}}\">
+<div style=\"display:flex;align-items:center;justify-content:space-between\"><div style=\"font-weight:700;font-size:14px\">Nova Plus</div><div style=\"font-size:11px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:2px 8px;font-weight:700\">[PRICE] / month</div></div>
+<div style=\"font-size:12px;color:rgba(255,255,255,0.65);margin-top:6px\">Free: typed commands, basic in-app tasks</div>
+<div style=\"font-size:12px;color:rgba(255,255,255,0.85);margin-top:2px\">Plus: free-flowing voice chat, screen share, unlimited daily requests</div>
+<button style=\"width:100%;margin-top:10px;min-height:42px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700\">Upgrade to Plus</button>
+</div>
+<div style=\"flex:1\"></div>
+<div class=\"g\" style=\"border-radius:20px;padding:14px;display:flex;align-items:center;gap:10px\"><div style=\"width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center\">&#127909;</div><div style=\"flex:1\"><div style=\"font-size:13px\">Share your screen so Nova can see and help</div><div style=\"font-size:11px;color:{{accent}};margin-top:2px\">Nova Plus feature</div></div><div style=\"font-size:11px;background:rgba(255,255,255,0.15);border-radius:10px;padding:3px 8px\">Locked</div></div>'''
+s=s.replace(old,new)
+open('Assistant.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Admin billing</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.6;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Admin &middot; Billing</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Admin only</span></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700;margin-top:16px">Payments &amp; pricing</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Admins set prices and payment methods. Private chats and calls stay encrypted and out of admin reach.</div>\n'
+s+='<div style="margin-top:16px;display:flex;flex-direction:column;gap:8px">'
+for name,price in [("Plus","4.99"),("Hire category","12.99"),("Nova AI Plus","6.99")]:
+    s+='<div class="g" style="border-radius:16px;padding:12px 14px"><div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:rgba(255,255,255,0.6)">per month</div></div><div style="display:flex;align-items:center;gap:10px;margin-top:8px"><button aria-label="Lower price" style="width:36px;height:36px;border-radius:12px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:18px">&#8722;</button><div style="flex:1;text-align:center;font-size:18px;font-weight:700">$'+price+'</div><button aria-label="Raise price" style="width:36px;height:36px;border-radius:12px;border:0;background:{{gold}};color:{{onAccent}};font-size:18px">&#43;</button></div></div>'
+s+='</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Accepted payment methods</div>\n'
+s+='<div style="display:flex;flex-direction:column;gap:8px">'
+for name,on in [("Card (Visa, Mastercard)",True),("Apple Pay / Google Pay",True),("Mobile money",True),("Bank transfer",True),("Crypto",False)]:
+    track='rgba(201,162,39,0.5)' if on else 'rgba(255,255,255,0.2)'
+    knob='right:3px;background:{{gold}}' if on else 'left:3px;background:#8c8f96'
+    s+='<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:10px 12px"><div style="flex:1;font-size:13px">'+name+'</div><div style="width:42px;height:24px;border-radius:12px;background:'+track+';position:relative"><div style="position:absolute;top:3px;width:18px;height:18px;border-radius:50%;'+knob+'"></div></div></div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<button style="width:100%;min-height:50px;border-radius:25px;border:0;background:{{gold}};color:{{onAccent}};font-size:15px;font-weight:700">Save changes</button>\n'
+s+='</div></div>\n'+tail
+open('AdminBilling.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['AdminBilling.dc.html']={"x":6110,"y":0,"w":390,"h":844,"title":"Admin billing"}
+if 'AdminBilling.dc.html' not in c['order']: c['order'].append('AdminBilling.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('AdminBilling.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('AdminBilling.dc.html').read()
+s=s.replace('<title>Admin billing</title>','<title>Owner billing</title>')
+s=s.replace('Admins set prices and payment methods. Private chats and calls stay encrypted and out of admin reach.','The owner sets prices and payment methods for the whole app. Private chats and calls stay encrypted, out of reach even for the owner.')
+open('AdminBilling.dc.html','w').write(s)
+"
+
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Marketplace review</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Owner &middot; Marketplace</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Owner</span></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700;margin-top:16px">Pending listings</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Nothing goes live on the marketplace until the owner approves it.</div>\n'
+s+='<div style="display:flex;gap:6px;margin-top:14px"><div style="min-height:32px;padding:0 14px;border-radius:16px;background:{{gold}};color:{{onAccent}};font-size:12px;font-weight:700;display:flex;align-items:center">Pending (3)</div><div style="min-height:32px;padding:0 14px;border-radius:16px;background:rgba(255,255,255,0.12);font-size:12px;display:flex;align-items:center">Approved</div><div style="min-height:32px;padding:0 14px;border-radius:16px;background:rgba(255,255,255,0.12);font-size:12px;display:flex;align-items:center">Rejected</div></div>\n'
+s+='<div style="margin-top:14px;display:flex;flex-direction:column;gap:10px;overflow:hidden">'
+items=[("Vintage leather jacket","[PRICE] &middot; Lola &middot; 2 km","#8A4B2E"),
+       ("Gold-plated watch","[PRICE] &middot; Dre &middot; 5 km","#3A2F12"),
+       ("Studio mic bundle","[PRICE] &middot; Kenji &middot; 1 km","#555B64")]
+for name,meta,c_ in items:
+    s+='<div class="g" style="border-radius:16px;padding:12px"><div style="display:flex;gap:10px"><div style="width:56px;height:56px;border-radius:12px;background:'+c_+'"></div><div style="flex:1"><div style="font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:rgba(255,255,255,0.6);margin-top:2px">'+meta+'</div></div></div><div style="display:flex;gap:8px;margin-top:10px"><button style="flex:1;min-height:38px;border-radius:12px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Approve</button><button style="flex:1;min-height:38px;border-radius:12px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-size:13px">Reject</button></div></div>'
+s+='</div>\n<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('MarketReview.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['MarketReview.dc.html']={"x":6580,"y":0,"w":390,"h":844,"title":"Marketplace review"}
+if 'MarketReview.dc.html' not in c['order']: c['order'].append('MarketReview.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('MarketReview.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Content safety</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Owner &middot; Content safety</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Owner</span></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700;margin-top:16px">Age &amp; content rules</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Minimum age to join is 16. Below settings apply automatically, the owner cannot turn them off.</div>\n'
+def rule(title,sub,locked=True):
+    return '<div class="g" style="border-radius:16px;padding:12px 14px;margin-bottom:8px"><div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700;font-size:14px">'+title+'</div><span style="font-size:10px;background:rgba(255,255,255,0.15);border-radius:8px;padding:2px 7px">'+('Always on' if locked else 'Adjustable')+'</span></div><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px">'+sub+'</div></div>'
+s+='<div style="margin-top:14px">'
+s+=rule("Age gate at signup","ID or card check confirms 16+ before an account is created")
+s+=rule("Nudity &amp; sexual content scan","Automatic scan blocks nude or sexual images and video on upload, for every account")
+s+=rule("No exceptions for minors' accounts","Under-18 accounts can never post, view, or receive this content, even if flagged \"allow\"")
+s+=rule("Teen safe feed (16-17)","Algorithm shows age-appropriate content only; no mature tags, no adult marketplace categories","Automatic")
+s+=rule("Suspected under-16 accounts","Flagged for review and paused until age is confirmed")
+s+='</div>\n'
+s+='<div class="g" style="border-radius:16px;padding:14px;margin-top:4px"><div style="font-weight:700;font-size:14px">Report &amp; remove</div><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px">Any user can report a post in one tap. Confirmed violations are removed and the account is restricted or banned.</div><button style="width:100%;margin-top:10px;min-height:40px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">View safety reports</button></div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.5);text-align:center">These protections are enforced for all users and cannot be disabled by anyone, owner included.</div>\n'
+s+='</div></div>\n'+tail
+open('ContentSafety.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['ContentSafety.dc.html']={"x":7050,"y":0,"w":390,"h":844,"title":"Content safety"}
+if 'ContentSafety.dc.html' not in c['order']: c['order'].append('ContentSafety.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('ContentSafety.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('ContentSafety.dc.html').read()
+old='''s+=rule(\"Suspected under-16 accounts\",\"Flagged for review and paused until age is confirmed\")
+s+='</div>\n\''''
+" 2>/dev/null
+python3 -c "
+s=open('ContentSafety.dc.html').read()
+old = '<div class=\"g\" style=\"border-radius:16px;padding:14px;margin-top:4px\"><div style=\"font-weight:700;font-size:14px\">Report &amp; remove</div><div style=\"font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px\">Any user can report a post in one tap. Confirmed violations are removed and the account is restricted or banned.</div><button style=\"width:100%;margin-top:10px;min-height:40px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px\">View safety reports</button></div>'
+assert old in s
+new = '''<div class=\"g\" style=\"border-radius:16px;padding:14px;margin-top:4px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><div style=\"font-weight:700;font-size:14px\">AI content supervision</div><span style=\"font-size:10px;background:rgba(255,255,255,0.15);border-radius:8px;padding:2px 7px\">Always on</span></div><div style=\"font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px\">Every photo, video and live stream is scanned by AI before and while it is visible to others, not just at upload.</div></div>
+<div class=\"g\" style=\"border-radius:16px;padding:14px;margin-top:8px\"><div style=\"font-weight:700;font-size:14px\">Fast takedown</div><div style=\"font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px\">A violating photo, video or live stream is pulled down within seconds of detection, not left up for review first.</div><div style=\"margin-top:8px;background:rgba(0,0,0,0.3);border-radius:12px;padding:10px 12px;font-size:12px\">&#9888; \"This post was removed for breaking our content rules. Repeat violations can suspend your account.\"</div></div>
+<div class=\"g\" style=\"border-radius:16px;padding:14px;margin-top:8px\"><div style=\"font-weight:700;font-size:14px\">Report &amp; remove</div><div style=\"font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px\">Any user can report a post in one tap. Confirmed violations are removed and the account is restricted or banned.</div><button style=\"width:100%;margin-top:10px;min-height:40px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px\">View safety reports</button></div>'''
+s=s.replace(old,new)
+s=s.replace('>Age &amp; content rules<','>Age &amp; content rules<')
+s=s.replace('Teen safe feed (16-17)','Open interaction, age-safe content')
+s=s.replace('Algorithm shows age-appropriate content only; no mature tags, no adult marketplace categories','People of all ages can follow, chat and comment with each other; the AI only filters what content is shown, never who can talk to whom')
+open('ContentSafety.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('ContentSafety.dc.html').read()
+old='People of all ages can follow, chat and comment with each other; the AI only filters what content is shown, never who can talk to whom'
+assert old in s
+new='People of all ages can follow, view and comment publicly; adult accounts cannot message an under-18 account unless that minor already follows them'
+s=s.replace(old,new)
+open('ContentSafety.dc.html','w').write(s)
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('ContentSafety.dc.html').read()
+old='People of all ages can follow, chat and comment with each other; the AI only filters what content is shown, never who can talk to whom'
+assert old in s
+new='People of all ages can follow, view and comment publicly; adult accounts cannot message an under-18 account unless that minor already follows them'
+s=s.replace(old,new)
+open('ContentSafety.dc.html','w').write(s)
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>AI chat safety</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Nova &middot; Privacy</div><div style="width:40px"></div></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700;margin-top:16px">Your chats with Nova</div>\n'
+s+='<div style="font-size:12px;color:{{accent}};margin-top:4px;display:flex;align-items:center;gap:6px">'+LOCK+' Encrypted between you and Nova</div>\n'
+def row(title,sub):
+    return '<div class="g" style="border-radius:16px;padding:12px 14px;margin-bottom:8px"><div style="font-weight:700;font-size:14px">'+title+'</div><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px">'+sub+'</div></div>'
+s+='<div style="margin-top:14px">'
+s+=row("Private by default","No other user, and no admin or owner, can read your conversation with Nova.")
+s+=row("On-device when possible","Simple commands run on your phone. Only what\'s needed for a complex answer is sent, encrypted, to process your request.")
+s+=row("You control your history","Clear Nova\'s memory of you any time. Nothing is used to train on without your say-so.")
+s+=row("Still screened for safety","Nova won\'t help with anything illegal or dangerous, and flags messages showing someone may be at risk of harm, same as a safety team would.")
+s+='</div>\n'
+s+='<div class="g" style="border-radius:16px;padding:14px;margin-top:4px"><div style="display:flex;align-items:center;justify-content:space-between"><div style="font-weight:700;font-size:14px">Clear Nova\'s memory</div></div><button style="width:100%;margin-top:10px;min-height:40px;border-radius:14px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-weight:700;font-size:13px">Clear chat history</button></div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.5);text-align:center">Nova\'s safety checks apply equally to every account, including the owner\'s.</div>\n'
+s+='</div></div>\n'+tail
+open('AIPrivacy.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['AIPrivacy.dc.html']={"x":7520,"y":0,"w":390,"h":844,"title":"AI chat privacy"}
+if 'AIPrivacy.dc.html' not in c['order']: c['order'].append('AIPrivacy.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('AIPrivacy.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Video call</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(18px) saturate(170%);backdrop-filter:blur(18px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#1b140a">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,#3a2f12,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between;padding:18px 16px 0"><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px;display:flex;align-items:center;gap:5px">'+LOCK+' 02:14</div><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px">Amina</div></div>\n'
+s+='<div style="flex:1;margin:60px 20px 0;border-radius:20px;background:#2a220d;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:40px;color:rgba(255,255,255,0.4)">AM</div>\n'
+s+='<div style="position:absolute;right:18px;bottom:220px;width:110px;height:150px;border-radius:16px;background:#3a2f12;border:2px solid {{accent}};display:flex;align-items:center;justify-content:center;font-weight:700;color:rgba(255,255,255,0.6)">You</div>\n'
+s+='<div style="padding:10px 16px 0;display:flex;gap:10px;overflow:hidden">'
+for name,sw in [("None",0),("Gold hour","#C9A227"),("Noir","#333"),("Pearl","#EDE6D6"),("Royal","#4B4F8A")]:
+    ring='2px solid {{accent}}' if name=="Gold hour" else '2px solid rgba(255,255,255,0.3)'
+    s+='<div style="text-align:center;font-size:10px;color:rgba(255,255,255,0.75)"><div style="width:48px;height:48px;border-radius:12px;background:'+(sw if sw else '#1a1a1a')+';border:'+ring+'"></div>'+name+'</div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div class="g" style="margin:0 14px 24px;border-radius:30px;padding:12px;display:flex;justify-content:space-around">'
+for icon,label,on in [("&#127909;","Filters",True),("&#128421;","Share screen",False),("&#128260;","Flip camera",False),("&#127908;","Mute",False),("&#9995;","End",False)]:
+    bg='{{gold}}' if on else 'rgba(255,255,255,0.14)'
+    col='{{onAccent}}' if on else '#fff'
+    if label=="End": bg='#C53030'
+    s+='<div style="text-align:center"><button aria-label="'+label+'" style="width:48px;height:48px;border-radius:50%;border:0;background:'+bg+';color:'+col+';font-size:18px">'+icon+'</button></div>'
+s+='</div>\n'
+s+='</div></div>\n'+tail
+open('VideoCall.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['VideoCall.dc.html']={"x":7990,"y":0,"w":390,"h":844,"title":"Video call"}
+if 'VideoCall.dc.html' not in c['order']: c['order'].append('VideoCall.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('VideoCall.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Video call</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(18px) saturate(170%);backdrop-filter:blur(18px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#1b140a">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,#3a2f12,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between;padding:18px 16px 0"><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px;display:flex;align-items:center;gap:5px">'+LOCK+' 02:14</div><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px">Amina</div></div>\n'
+s+='<div style="flex:1;margin:60px 20px 0;border-radius:20px;background:#2a220d;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:40px;color:rgba(255,255,255,0.4)">AM</div>\n'
+s+='<div style="position:absolute;right:18px;bottom:220px;width:110px;height:150px;border-radius:16px;background:#3a2f12;border:2px solid {{accent}};display:flex;align-items:center;justify-content:center;font-weight:700;color:rgba(255,255,255,0.6)">You</div>\n'
+s+='<div style="padding:10px 16px 0;display:flex;gap:10px;overflow:hidden">'
+for name,sw in [("None",0),("Gold hour","#C9A227"),("Noir","#333"),("Pearl","#EDE6D6"),("Royal","#4B4F8A")]:
+    ring='2px solid {{accent}}' if name=="Gold hour" else '2px solid rgba(255,255,255,0.3)'
+    s+='<div style="text-align:center;font-size:10px;color:rgba(255,255,255,0.75)"><div style="width:48px;height:48px;border-radius:12px;background:'+(sw if sw else '#1a1a1a')+';border:'+ring+'"></div>'+name+'</div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div class="g" style="margin:0 14px 24px;border-radius:30px;padding:12px;display:flex;justify-content:space-around">'
+for icon,label,on in [("&#127909;","Filters",True),("&#128421;","Share screen",False),("&#128260;","Flip camera",False),("&#127908;","Mute",False),("&#9995;","End",False)]:
+    bg='{{gold}}' if on else 'rgba(255,255,255,0.14)'
+    col='{{onAccent}}' if on else '#fff'
+    if label=="End": bg='#C53030'
+    s+='<div style="text-align:center"><button aria-label="'+label+'" style="width:48px;height:48px;border-radius:50%;border:0;background:'+bg+';color:'+col+';font-size:18px">'+icon+'</button></div>'
+s+='</div>\n'
+s+='</div></div>\n'+tail
+open('VideoCall.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['VideoCall.dc.html']={"x":7990,"y":0,"w":390,"h":844,"title":"Video call"}
+if 'VideoCall.dc.html' not in c['order']: c['order'].append('VideoCall.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('VideoCall.dc.html').read()))
+PYEOF
+
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Space+Grotesk:wght@400;500;700"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Group call</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>.g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(18px) saturate(170%);backdrop-filter:blur(18px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#1b140a">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 10%,#3a2f12,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between;padding:18px 16px 0"><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px;display:flex;align-items:center;gap:5px">'+LOCK+' 05:41</div><div class="g" style="padding:5px 12px;border-radius:14px;font-size:12px">Group call &middot; 4</div></div>\n'
+s+='<div class="g" style="margin:14px 16px 0;border-radius:14px;padding:10px 12px;display:flex;align-items:center;gap:8px;font-size:12px"><span style="color:#F3B13B">&#9888;</span><span><b>Dre</b> just took a screenshot of this call</span></div>\n'
+s+='<div style="flex:1;margin:14px 16px 0;display:grid;grid-template-columns:1fr 1fr;gap:10px">'
+people=[("You","#3a2f12",True),("Amina","#2E6F6A",False),("Kenji","#4B4F8A",False),("Dre","#8A4B2E",False)]
+for name,c,me in people:
+    ring='border:2px solid {{accent}}' if not me else 'border:2px solid rgba(255,255,255,0.25)'
+    s+='<div style="position:relative;border-radius:16px;background:'+c+';'+ring+';display:flex;align-items:center;justify-content:center;font-weight:700;color:rgba(255,255,255,0.7)">'+name[:2].upper()+'<div style="position:absolute;left:8px;bottom:8px;font-size:11px;background:rgba(0,0,0,0.5);border-radius:8px;padding:2px 8px">'+name+'</div></div>'
+s+='</div>\n'
+s+='<div class="g" style="margin:14px 14px 24px;border-radius:30px;padding:12px;display:flex;justify-content:space-around">'
+for icon,label,bg in [("&#128100;&#10133;","Add person","rgba(255,255,255,0.14)"),("&#127909;","Filters","rgba(255,255,255,0.14)"),("&#128421;","Share screen","rgba(255,255,255,0.14)"),("&#128264;","Mute","rgba(255,255,255,0.14)"),("&#9995;","End","#C53030")]:
+    s+='<div style="text-align:center"><button aria-label="'+label+'" style="width:46px;height:46px;border-radius:50%;border:0;background:'+bg+';color:#fff;font-size:17px">'+icon+'</button></div>'
+s+='</div>\n'
+s+='</div></div>\n'+tail
+open('GroupCall.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['GroupCall.dc.html']={"x":8460,"y":0,"w":390,"h":844,"title":"Group call"}
+if 'GroupCall.dc.html' not in c['order']: c['order'].append('GroupCall.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('GroupCall.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('PrivacySecurity.dc.html').read()
+old='''s+=toggle(\"Who can find me\",\"Anyone, or contacts by phone / email only\",True)'''
+" 2>/dev/null
+grep -n "Who can find me" PrivacySecurity.dc.html
+Successfully replaced string in /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project/PrivacySecurity.dc.html
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import re, glob
+
+G='style="width:18px;height:18px;flex:none" fill="none" stroke="{{accent}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"'
+def svg(inner, size=18):
+    return f'<svg {G} viewBox="0 0 24 24" aria-hidden="true">{inner}</svg>'.replace('width:18px;height:18px', f'width:{size}px;height:{size}px')
+
+ICONS = {
+ '&#128266;': svg('<path d="M3 10v4h4l5 5V5L7 10H3z"/><path d="M16 8a5 5 0 0 1 0 8"/><path d="M19 5a9 9 0 0 1 0 14"/>'),
+ '&#128247;': svg('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l2-3h4l2 3"/><circle cx="12" cy="13.5" r="3.5"/>'),
+ '&#128737;': svg('<path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/>'),
+ '&#128250;': svg('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M7 7l3-4M17 7l-3-4"/><circle cx="8" cy="13.5" r="1"/>'),
+ '&#127909;': svg('<rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z"/>'),
+ '&#128421;': svg('<rect x="2.5" y="5" width="19" height="12" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M9 11l3-2 3 2M12 9v4"/>'),
+ '&#128260;': svg('<path d="M4 9a8 8 0 0 1 14-4M20 15a8 8 0 0 1-14 4"/><path d="M18 2v5h-5M6 22v-5h5"/>'),
+ '&#127908;': svg('<path d="M3 10v4h4l5 5V5L7 10H3z"/><path d="M19 9l-4 6M15 9l4 6"/>'),
+ '&#128264;': svg('<path d="M3 10v4h4l5 5V5L7 10H3z"/><path d="M19 9l-4 6M15 9l4 6"/>'),
+ '&#9995;': svg('<path d="M6 4l12 16M18 4L6 20"/>'),
+ '&#128100;&#10133;': svg('<circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.5 3-6 6-6s6 2.5 6 6"/><path d="M18 8v6M15 11h6"/>'),
+ '&#9888;': svg('<path d="M12 3l10 18H2L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17.3" r="0.6" fill="{{accent}}"/>'),
+ '&#128279;': svg('<path d="M9 15l6-6"/><path d="M8 13l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="M16 11l2-2a3.5 3.5 0 0 0-5-5l-2 2"/>'),
+ '&#9881;': svg('<circle cx="12" cy="12" r="3"/><path d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.5-2-3.5-2.4 1a7.6 7.6 0 0 0-1.7-1L15 3h-4l-.3 2.6a7.6 7.6 0 0 0-1.7 1l-2.4-1-2 3.5L6.6 11a7.6 7.6 0 0 0 0 2l-2 1.5 2 3.5 2.4-1a7.6 7.6 0 0 0 1.7 1L11 21h4l.3-2.6a7.6 7.6 0 0 0 1.7-1l2.4 1 2-3.5-2-1.5z"/>'),
+ '&#10005;': svg('<path d="M6 6l12 12M18 6L6 18"/>'),
+}
+
+files = sorted(glob.glob('*.dc.html'))
+changed = {}
+for f in files:
+    s = open(f).read()
+    orig = s
+    for code, icon in ICONS.items():
+        if code in s:
+            s = s.replace(code, icon)
+    if s != orig:
+        open(f, 'w').write(s)
+        changed[f] = True
+print(list(changed.keys()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Linked devices</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg style="width:13px;height:13px" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="2.2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Linked devices</div><div style="width:40px"></div></div>\n'
+s+='<div style="text-align:center;margin-top:20px"><div style="width:120px;height:120px;border-radius:20px;background:{{gold}};margin:0 auto;display:flex;align-items:center;justify-content:center"><svg style="width:70px;height:70px" viewBox="0 0 24 24" fill="none" stroke="{{onAccent}}" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M9 20h6"/></svg></div><div style="margin-top:12px;font-size:13px;color:rgba(255,255,255,0.65)">Scan this on your phone to link a new device</div></div>\n'
+s+='<div style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:18px">Linked devices</div>\n'
+def dev(name,place,icon,now=False):
+    badge='<span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:2px 7px;font-weight:700">This device</span>' if now else '<button style="font-size:12px;color:#E67A7A;background:transparent;border:0">Log out</button>'
+    return ('<div class="g" style="display:flex;align-items:center;gap:12px;border-radius:16px;padding:12px 14px;margin-bottom:8px">'
+            '<svg style="width:28px;height:28px" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="1.8">'+icon+'</svg>'
+            '<div style="flex:1"><div style="font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:rgba(255,255,255,0.6)">'+place+'</div></div>'+badge+'</div>')
+s+=dev("iPhone 16 Pro","This device &middot; now",'<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M9 20h6"/>',True)
+s+=dev("MacBook Air","Nairobi &middot; active 2h ago",'<rect x="2" y="4" width="20" height="13" rx="2"/><path d="M1 20h22"/>')
+s+=dev("iPad","Mombasa &middot; active 3 days ago",'<rect x="5" y="2" width="14" height="20" rx="2"/>')
+s+='<div class="g" style="border-radius:16px;padding:12px 14px;margin-top:6px;display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,0.75)">'+LOCK+' Each device gets its own encryption key. Logging out of one device never exposes your other chats.</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<button style="width:100%;min-height:50px;border-radius:25px;border:1px solid rgba(220,100,100,0.6);background:transparent;color:#E67A7A;font-weight:700">Log out of all other devices</button>\n'
+s+='</div></div>\n'+tail
+open('LinkedDevices.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['LinkedDevices.dc.html']={"x":9400,"y":0,"w":390,"h":844,"title":"Linked devices"}
+if 'LinkedDevices.dc.html' not in c['order']: c['order'].append('LinkedDevices.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('LinkedDevices.dc.html').read()))
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Customize.dc.html').read()
+old='s+=row(ftile(\"DM Serif\",\"\\'DM Serif Display\\'\",1),ftile(\"Quicksand\",\"\\'Quicksand\\'\",1))'
+assert old in s
+new=old+'''
+s+=row(ftile(\"Playfair Italic\",\"\\'Playfair Display\\'\",1),ftile(\"Mono\",\"\\'Space Grotesk\\'\",1))'''
+s=s.replace(old,new)
+open('Customize.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Customize.dc.html').read()
+old='s+=row(ftile(\"DM Serif\",\"\\'DM Serif Display\\'\",1),ftile(\"Quicksand\",\"\\'Quicksand\\'\",1))'
+assert old in s
+new=old+'''
+s+=row(ftile(\"Playfair Italic\",\"\\'Playfair Display\\'\",1),ftile(\"Mono\",\"\\'Space Grotesk\\'\",1))'''
+s=s.replace(old,new)
+open('Customize.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+grep -n "DM Serif\|Quicksand" Customize.dc.html
+{"returncode":0,"stdout":"11:<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700&family=Cormorant+Garamond:wght@600;700&family=DM+Serif+Display&family=Quicksand:wght@500;700&display=swap\" rel=\"stylesheet\">\n19:<div style=\"margin:0 20px 10px;display:flex;gap:10px\"><div style=\"flex:1;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:10px;text-align:center\"><div style=\"font-family:'DM Serif Display';font-size:28px;line-height:34px\">Aa</div><div style=\"font-size:11px;color:{{muted}};margin:2px 0 6px\">DM Serif</div><span style=\"display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:700;color:{{accentText}};border:1px solid {{line}};border-radius:8px;padding:2px 6px\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Premium</span></div><div style=\"flex:1;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:10px;text-align:center\"><div style=\"font-family:'Quicksand';font-size:28px;line-height:34px\">Aa</div><div style=\"font-size:11px;color:{{muted}};margin:2px 0 6px\">Quicksand</div><span style=\"display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:700;color:{{accentText}};border:1px solid {{line}};border-radius:8px;padding:2px 6px\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Premium</span></div></div>\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('Customize.dc.html').read()
+s=s.replace('family=Quicksand:wght@500;700&display','family=Quicksand:wght@500;700&family=Cinzel:wght@600;700&family=Montserrat:wght@500;700&display')
+badge='<span style=\"display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:700;color:{{accentText}};border:1px solid {{line}};border-radius:8px;padding:2px 6px\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" aria-hidden=\"true\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"/></svg> Premium</span>'
+def tile(name,fam,paid):
+    b = badge if paid else '<span style=\"font-size:10px;font-weight:700;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:2px 6px\">Free</span>'
+    return '<div style=\"flex:1;background:{{card}};border:2px solid {{line}};border-radius:16px;padding:10px;text-align:center\"><div style=\"font-family:'+chr(39)+fam+chr(39)+';font-size:28px;line-height:34px\">Aa</div><div style=\"font-size:11px;color:{{muted}};margin:2px 0 6px\">'+name+'</div>'+b+'</div>'
+marker='Premium</span></div></div>\n'
+idx=s.rfind(marker)
+insert_point = idx+len(marker)
+new_row='<div style=\"margin:0 20px 10px;display:flex;gap:10px\">'+tile('Cinzel Gold','Cinzel',1)+tile('Montserrat','Montserrat',0)+'</div>\n'
+s = s[:insert_point] + new_row + s[insert_point:]
+open('Customize.dc.html','w').write(s)
+print('ok', len(s))
+"
+{"returncode":0,"stdout":"ok 10351\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes ring{0%{transform:scale(1);opacity:0.5}100%{transform:scale(1.8);opacity:0}}.orb{animation:float 2.8s ease-in-out infinite}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>AI button closeup</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:40px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:20px 16px">\n'
+s+='<div style="font-weight:700;font-size:18px;text-align:center">The AI button, two places it lives</div>\n'
+# small state
+s+='<div class="g" style="margin-top:20px;border-radius:20px;padding:20px;text-align:center"><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-bottom:14px">1. Floating mascot &middot; small, tappable, follows you on every screen</div>\n'
+s+='<div style="position:relative;width:90px;height:90px;margin:0 auto"><div style="position:absolute;inset:0;border-radius:50%;border:2px solid {{accent}};animation:ring 2.2s ease-out infinite"></div><div class="orb" style="width:68px;height:68px;border-radius:50%;background:{{gold}};margin:11px auto;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(201,162,39,0.5)"><svg style="width:30px;height:30px" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/><path d="M12 18v3"/></svg></div></div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:10px">Gently bobs in place. Tap once to talk, tap and hold to drag it anywhere on screen.</div></div>\n'
+# text button state
+s+='<div class="g" style="margin-top:16px;border-radius:20px;padding:20px;text-align:center"><div style="font-size:12px;color:rgba(255,255,255,0.65);margin-bottom:14px">2. Header shortcut &middot; top of the Feed screen</div>\n'
+s+='<button style="min-height:44px;padding:0 20px;border-radius:22px;border:1px solid {{accent}};background:#171B24;color:{{accent}};font-size:15px;font-weight:600;display:inline-flex;align-items:center;gap:8px"><svg style="width:16px;height:16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/></svg> Ask AI</button>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:12px">Opens the full Nova assistant screen with typing and voice</div></div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('AIButton.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['AIButton.dc.html']={"x":9870,"y":0,"w":390,"h":844,"title":"AI button closeup"}
+if 'AIButton.dc.html' not in c['order']: c['order'].append('AIButton.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('AIButton.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"3520\n","stderr":"am BM "}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Customize mascot</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A;display:flex;flex-direction:column;justify-content:flex-end">\n'
+s+='<div style="position:absolute;inset:0;background:rgba(0,0,0,0.5)"></div>\n'
+# tiny preview of the floating mascot sitting on the dimmed background, mid-drag
+s+='<div class="g" style="position:absolute;left:250px;top:430px;width:60px;height:60px;border-radius:50%;background:{{gold}};display:flex;align-items:center;justify-content:center;font-size:26px;border:2px dashed rgba(255,255,255,0.6)">&#129418;</div>\n'
+s+='<div style="position:relative;background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(26px) saturate(170%);backdrop-filter:blur(26px) saturate(170%);border-top:1px solid rgba(255,255,255,0.3);border-radius:26px 26px 0 0;padding:14px 16px 26px">\n'
+s+='<div style="width:40px;height:4px;border-radius:2px;background:rgba(255,255,255,0.4);margin:0 auto 14px"></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:20px;font-weight:700;text-align:center">Choose your assistant\'s look</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);text-align:center;margin-top:4px">Hold the floating button, then pick one</div>\n'
+def opt(char,name,bg,sel=False):
+    ring='2px solid {{accent}}' if sel else '2px solid rgba(255,255,255,0.2)'
+    return '<div style="text-align:center;font-size:11px;color:rgba(255,255,255,0.75)"><div style="width:58px;height:58px;border-radius:50%;background:'+bg+';border:'+ring+';display:flex;align-items:center;justify-content:center;font-size:26px">'+char+'</div>'+name+'</div>'
+s+='<div style="padding:16px 2px 6px;font-size:12px;color:rgba(255,255,255,0.6)">Robots</div><div style="display:flex;gap:14px;overflow:hidden">'
+s+=opt('&#129302;','Classic','{{gold}}',True)
+s+=opt('&#128302;','Orb','linear-gradient(135deg,#8C8F96,#C0C3C8)')
+s+=opt('&#128418;','Satellite','#3A2F12')
+s+='</div>\n'
+s+='<div style="padding:16px 2px 6px;font-size:12px;color:rgba(255,255,255,0.6)">Cute animals</div><div style="display:flex;gap:14px;overflow:hidden">'
+s+=opt('&#128062;','Fox','#8A4B2E')
+s+=opt('&#129418;','Otter','#555B64')
+s+=opt('&#128049;','Cat','#C0A062')
+s+=opt('&#128054;','Panda','#1A1A1A')
+s+='</div>\n'
+s+='<div style="padding:16px 2px 6px;font-size:12px;color:rgba(255,255,255,0.6)">Any emoji</div>\n'
+s+='<div style="min-height:44px;border-radius:22px;background:rgba(255,255,255,0.1);display:flex;align-items:center;padding:0 16px;color:rgba(255,255,255,0.6);font-size:13px">Tap to pick any emoji as your mascot</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.55);text-align:center;margin-top:16px">Drag the floating button anywhere on screen. It remembers where you leave it.</div>\n'
+s+='<button style="width:100%;margin-top:12px;min-height:48px;border-radius:24px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Save</button>\n'
+s+='</div></div>\n'+tail
+open('MascotCustomize.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['MascotCustomize.dc.html']={"x":10340,"y":0,"w":390,"h":844,"title":"Customize mascot"}
+if 'MascotCustomize.dc.html' not in c['order']: c['order'].append('MascotCustomize.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('MascotCustomize.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"5078\n","stderr":""}
+{"returncode":0,"stdout":"5078\n","stderr":""}
+{"returncode":0,"stdout":"AIButton.dc.html\nAIPrivacy.dc.html\nAdminBilling.dc.html\nAssistant.dc.html\nChat.dc.html\nFeedNight.dc.html\nMain.dc.html\nPrivacy.dc.html\nReactions.dc.html\nShare.dc.html\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import glob
+files = glob.glob('*.dc.html')
+for f in files:
+    s = open(f).read()
+    orig = s
+    s = s.replace('loop<span', 'lulo<span')  # logo markup in Main/FeedNight
+    s = s.replace('>Loop AI<', '>Lulo AI<')
+    s = s.replace('Ask Loop AI', 'Ask Lulo AI')
+    s = s.replace('Loop story', 'Lulo story')
+    s = s.replace('Loop friend', 'Lulo friend')
+    s = s.replace('not even Loop.', 'not even Lulo.')
+    s = s.replace('Loop wouldn', 'Lulo wouldn')
+    s = s.replace("Loop\\'s", "Lulo\\'s")  # just in case
+    s = s.replace('Loop', 'Lulo')  # catch remaining
+    s = s.replace('Nova', 'Lulo')
+    if s != orig:
+        open(f, 'w').write(s)
+        print('updated', f)
+PYEOF
+grep -rl "Nova\|Loop\b" *.dc.html 2>/dev/null
+updated AIButton.dc.html
+updated AIPrivacy.dc.html
+updated AdminBilling.dc.html
+updated Assistant.dc.html
+updated Chat.dc.html
+updated FeedNight.dc.html
+updated Main.dc.html
+updated Privacy.dc.html
+updated Reactions.dc.html
+updated Share.dc.html
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Mini games</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700">Mini games</div><div class="g" style="padding:5px 10px;border-radius:12px;font-size:11px">1,240 gold coins</div></div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Play solo, challenge a friend, or jump into a live lobby</div>\n'
+s+='<div class="g" style="margin-top:14px;border-radius:18px;padding:14px;display:flex;align-items:center;gap:12px"><div style="width:52px;height:52px;border-radius:14px;background:{{gold}}"></div><div style="flex:1"><div style="font-weight:700">Gold Rush Runner</div><div style="font-size:11px;color:rgba(255,255,255,0.6)">Featured &middot; 12.4k playing now</div></div><button style="min-height:36px;padding:0 14px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Play</button></div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Challenge a friend</div>\n'
+s+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">'
+games=[("Trivia Royale","#3a2f12"),("Chess","#1a1a1a"),("Word Dash","#4B4F8A"),("Card Clash","#8A4B2E")]
+for n,c in games:
+    s+='<div class="g" style="border-radius:16px;padding:12px"><div style="height:70px;border-radius:10px;background:'+c+'"></div><div style="margin-top:8px;font-weight:700;font-size:13px">'+n+'</div><div style="font-size:11px;color:rgba(255,255,255,0.55)">2-4 players</div></div>'
+s+='</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Works offline</div>'
+s+='<div class="g" style="border-radius:16px;padding:12px;display:flex;align-items:center;gap:10px"><div style="width:40px;height:40px;border-radius:12px;background:#555B64"></div><div style="flex:1"><div style="font-weight:700;font-size:13px">Puzzle Vault</div><div style="font-size:11px;color:rgba(255,255,255,0.55)">Single player, no internet needed</div></div></div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div class="g" style="display:flex;justify-content:space-around;border-radius:30px;padding:12px 8px;font-size:13px"><div>Feed</div><div>Chat</div><div>Map</div><div style="font-weight:700;color:{{accent}}">Games</div><div>Me</div></div>\n'
+s+='</div></div>\n'+tail
+open('MiniGames.dc.html','w').write(s)
+
+# Offline screen
+s2=head.replace('Mini games','Offline mode')
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#555B64;opacity:0.5;filter:blur(50px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s2+='<div class="g" style="border-radius:16px;padding:12px 14px;display:flex;align-items:center;gap:10px"><div style="width:10px;height:10px;border-radius:50%;background:#E6B84A"></div><div style="flex:1;font-size:13px">No internet connection &middot; showing saved content</div></div>\n'
+s2+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700;margin-top:16px">Available offline</div>\n'
+def row(t,sub):
+    return '<div class="g" style="border-radius:16px;padding:12px 14px;margin-top:8px"><div style="font-weight:700;font-size:14px">'+t+'</div><div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:3px">'+sub+'</div></div>'
+s2+=row("Your last-loaded feed","Posts already opened stay saved on this device")
+s2+=row("Downloaded reels and videos","Anything you tapped the download icon on")
+s2+=row("Offline mini games","Puzzle Vault, Chess, and Word Dash work with no connection")
+s2+=row("Draft messages","Typed but unsent messages queue and send once you\'re back online")
+s2+='<div style="flex:1"></div>\n'
+s2+='<div style="font-size:11px;color:rgba(255,255,255,0.5);text-align:center">Live features &mdash; chat, calls, live streams, the marketplace &mdash; need a connection and will resume automatically.</div>\n'
+s2+='</div></div>\n'+tail
+open('Offline.dc.html','w').write(s2)
+
+c=json.load(open('canvas.json'))
+c['boards']['MiniGames.dc.html']={"x":10810,"y":0,"w":390,"h":844,"title":"Mini games"}
+c['boards']['Offline.dc.html']={"x":11280,"y":0,"w":390,"h":844,"title":"Offline mode"}
+for k in ['MiniGames.dc.html','Offline.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+{"returncode":0,"stdout":"ok\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+def head(t): return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg style="width:12px;height:12px" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+
+# Creator page (subscription, paywalled)
+s=head("Creator page")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="height:140px;background:linear-gradient(135deg,#1a1a1a,#C9A227 140%)"></div>\n'
+s+='<div style="padding:0 16px;margin-top:-40px">\n'
+s+='<div style="width:84px;height:84px;border-radius:50%;background:#1a1a1a;border:4px solid #0A0A0A;display:flex;align-items:center;justify-content:center;font-weight:700">LO</div>\n'
+s+='<div style="display:flex;align-items:center;gap:6px;margin-top:8px"><div style="font-weight:700;font-size:18px">Lola\'s Studio</div><span style="color:{{gold}}">&#10003;</span></div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6)">Exclusive behind-the-scenes, tutorials &amp; early drops</div>\n'
+s+='<div class="g" style="margin-top:12px;border-radius:14px;padding:10px 12px;display:flex;align-items:center;gap:6px;font-size:11px;color:rgba(255,255,255,0.75)">'+LOCK+' Content here is for paying subscribers only. Nude and sexual content is never allowed, same rule as the rest of Lulo.</div>\n'
+s+='<div class="g" style="margin-top:12px;border-radius:16px;padding:14px"><div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700;font-size:15px">Subscribe</div><div style="font-size:14px;font-weight:700;color:{{accent}}">[PRICE] / month</div></div><div style="font-size:11px;color:rgba(255,255,255,0.55);margin-top:4px">A Lulo platform fee of 15% applies to this payment; Lola receives the rest.</div><button style="width:100%;margin-top:10px;min-height:44px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Subscribe to unlock</button></div>\n'
+s+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-top:14px">'
+for c in ["#1a1a1a","#2a2510","#1a1a1a"]:
+    s+='<div style="position:relative;aspect-ratio:1;background:'+c+';border-radius:8px;overflow:hidden"><div style="position:absolute;inset:0;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center">'+LOCK+'</div></div>'
+s+='</div>\n'
+s+='</div>\n<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('CreatorPage.dc.html','w').write(s)
+
+# Wallet / balance
+s2=head("Wallet")
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s2+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700">Wallet</div>\n'
+s2+='<div class="g" style="margin-top:14px;border-radius:20px;padding:18px"><div style="font-size:12px;color:rgba(255,255,255,0.6)">Your balance</div><div style="font-size:32px;font-weight:700;margin-top:4px">$248.60</div><div style="display:flex;gap:10px;margin-top:12px"><button style="flex:1;min-height:40px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Add funds</button><button style="flex:1;min-height:40px;border-radius:14px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-size:13px">Withdraw</button></div></div>\n'
+s2+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Recent activity</div>\n'
+rows=[("Subscribed to Lola\'s Studio","-[PRICE]"),("Gift sent to Kenji (live)","-$5.00"),("Gift received from Amina","+$4.50"),("Nova AI Plus renewal","-[PRICE]")]
+for t,amt in rows:
+    col='{{accent}}' if amt.startswith('+') else 'rgba(255,255,255,0.8)'
+    s2+='<div class="g" style="display:flex;justify-content:space-between;align-items:center;border-radius:14px;padding:12px 14px;margin-bottom:8px"><div style="font-size:13px">'+t+'</div><div style="font-weight:700;font-size:13px;color:'+col+'">'+amt+'</div></div>'
+s2+='<div class="g" style="border-radius:14px;padding:12px 14px;margin-top:4px;font-size:11px;color:rgba(255,255,255,0.6)">All payments and transfers run through encrypted, licensed payment processors. Lulo never stores your card or bank details directly.</div>\n'
+s2+='<div style="flex:1"></div>\n'
+s2+='</div></div>\n'+tail
+open('Wallet.dc.html','w').write(s2)
+
+# Live gift sheet
+s3=head("Send a gift")
+s3+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A;display:flex;flex-direction:column;justify-content:flex-end">\n'
+s3+='<div style="position:absolute;inset:0;background:rgba(0,0,0,0.5)"></div>\n'
+s3+='<div style="position:relative;background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(26px) saturate(170%);backdrop-filter:blur(26px) saturate(170%);border-top:1px solid rgba(255,255,255,0.3);border-radius:26px 26px 0 0;padding:14px 16px 26px">\n'
+s3+='<div style="width:40px;height:4px;border-radius:2px;background:rgba(255,255,255,0.4);margin:0 auto 14px"></div>\n'
+s3+='<div style="text-align:center;font-weight:700">Send a gift to Amina</div>\n'
+s3+='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px">'
+gifts=[("&#127801;","$1"),("&#128142;","$5"),("&#128081;","$10"),("&#127881;","$25")]
+for ch,p in gifts:
+    s3+='<div class="g" style="border-radius:14px;padding:10px 0;text-align:center"><div style="font-size:26px">'+ch+'</div><div style="font-size:12px;margin-top:4px;color:rgba(255,255,255,0.8)">'+p+'</div></div>'
+s3+='</div>\n'
+s3+='<div style="font-size:11px;color:rgba(255,255,255,0.55);margin-top:12px;text-align:center">Lulo keeps 10% of every gift. Amina receives the rest instantly to her wallet.</div>\n'
+s3+='<button style="width:100%;margin-top:12px;min-height:48px;border-radius:24px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Send gift</button>\n'
+s3+='</div></div>\n'+tail
+open('LiveGift.dc.html','w').write(s3)
+
+c=json.load(open('canvas.json'))
+c['boards']['CreatorPage.dc.html']={"x":11750,"y":0,"w":390,"h":844,"title":"Creator page"}
+c['boards']['Wallet.dc.html']={"x":12220,"y":0,"w":390,"h":844,"title":"Wallet"}
+c['boards']['LiveGift.dc.html']={"x":12690,"y":0,"w":390,"h":844,"title":"Send a gift"}
+for k in ['CreatorPage.dc.html','Wallet.dc.html','LiveGift.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+{"returncode":0,"stdout":"ok\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+def head(t): return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+
+s=head("Only You - age gate")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,#2a220d,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;text-align:center">\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:30px;font-weight:700">Only You</div>\n'
+s+='<div style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:6px;max-width:300px">A separate, 18+ section of Lulo. Entry requires government ID verification, every time you open it for the first time on a device.</div>\n'
+s+='<div class="g" style="margin-top:20px;border-radius:18px;padding:18px;text-align:left;max-width:320px">'
+s+='<div style="font-weight:700;font-size:14px">Before you continue</div>'
+for line in ["You must be 18 or older, verified by government ID","Content here can include nudity and sexual content between consenting adults","Every upload is still scanned to confirm no minor is involved, with zero exceptions","Creators must pass identity and age verification before posting"]:
+    s+='<div style="display:flex;gap:8px;margin-top:10px;font-size:12px;color:rgba(255,255,255,0.8)"><span style="color:{{accent}}">&#8226;</span>'+line+'</div>'
+s+='</div>\n'
+s+='<button style="min-height:48px;padding:0 28px;border-radius:24px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;margin-top:18px">Verify my ID to continue</button>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:10px">Not 18? <span style="color:{{accent}}">Return to Lulo</span></div>\n'
+s+='</div></div>\n'+tail
+open('OnlyYouGate.dc.html','w').write(s)
+
+s2=head("Only You")
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#B76E79;opacity:0.4;filter:blur(55px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s2+='<div style="display:flex;align-items:center;justify-content:space-between"><div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700">Only You</div><span style="font-size:10px;background:rgba(255,255,255,0.15);border-radius:8px;padding:3px 8px">18+ verified</span></div>\n'
+s2+='<div class="g" style="margin-top:12px;border-radius:14px;padding:10px 12px;font-size:11px;color:rgba(255,255,255,0.7)">Every upload here is still checked to confirm no minor is involved. This never turns off.</div>\n'
+s2+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:14px 0 8px">Creators you can subscribe to</div>\n'
+for name,c in [("Verified creator A","#2a1216"),("Verified creator B","#1c1c1c")]:
+    s2+='<div class="g" style="border-radius:16px;padding:12px;margin-bottom:8px;display:flex;gap:10px;align-items:center"><div style="width:52px;height:52px;border-radius:14px;background:'+c+'"></div><div style="flex:1"><div style="font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:rgba(255,255,255,0.55)">ID verified &middot; [PRICE]/month</div></div><button style="min-height:36px;padding:0 14px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:12px">View</button></div>'
+s2+='<div style="flex:1"></div>\n'
+s2+='<div style="font-size:11px;color:rgba(255,255,255,0.45);text-align:center">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>\n'
+s2+='</div></div>\n'+tail
+open('OnlyYou.dc.html','w').write(s2)
+
+c=json.load(open('canvas.json'))
+c['boards']['OnlyYouGate.dc.html']={"x":13160,"y":0,"w":390,"h":844,"title":"Only You - age gate"}
+c['boards']['OnlyYou.dc.html']={"x":13630,"y":0,"w":390,"h":844,"title":"Only You"}
+for k in ['OnlyYouGate.dc.html','OnlyYou.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+def head(t): return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+
+s=head("Only You - age gate")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,#2a220d,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;text-align:center">\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:30px;font-weight:700">Only You</div>\n'
+s+='<div style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:6px;max-width:300px">A separate, 18+ section of Lulo. Entry requires government ID verification, every time you open it for the first time on a device.</div>\n'
+s+='<div class="g" style="margin-top:20px;border-radius:18px;padding:18px;text-align:left;max-width:320px">'
+s+='<div style="font-weight:700;font-size:14px">Before you continue</div>'
+for line in ["You must be 18 or older, verified by government ID","Content here can include nudity and sexual content between consenting adults","Every upload is still scanned to confirm no minor is involved, with zero exceptions","Creators must pass identity and age verification before posting"]:
+    s+='<div style="display:flex;gap:8px;margin-top:10px;font-size:12px;color:rgba(255,255,255,0.8)"><span style="color:{{accent}}">&#8226;</span>'+line+'</div>'
+s+='</div>\n'
+s+='<button style="min-height:48px;padding:0 28px;border-radius:24px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;margin-top:18px">Verify my ID to continue</button>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:10px">Not 18? <span style="color:{{accent}}">Return to Lulo</span></div>\n'
+s+='</div></div>\n'+tail
+open('OnlyYouGate.dc.html','w').write(s)
+
+s2=head("Only You")
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#B76E79;opacity:0.4;filter:blur(55px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s2+='<div style="display:flex;align-items:center;justify-content:space-between"><div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700">Only You</div><span style="font-size:10px;background:rgba(255,255,255,0.15);border-radius:8px;padding:3px 8px">18+ verified</span></div>\n'
+s2+='<div class="g" style="margin-top:12px;border-radius:14px;padding:10px 12px;font-size:11px;color:rgba(255,255,255,0.7)">Every upload here is still checked to confirm no minor is involved. This never turns off.</div>\n'
+s2+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:14px 0 8px">Creators you can subscribe to</div>\n'
+for name,c in [("Verified creator A","#2a1216"),("Verified creator B","#1c1c1c")]:
+    s2+='<div class="g" style="border-radius:16px;padding:12px;margin-bottom:8px;display:flex;gap:10px;align-items:center"><div style="width:52px;height:52px;border-radius:14px;background:'+c+'"></div><div style="flex:1"><div style="font-weight:700;font-size:14px">'+name+'</div><div style="font-size:11px;color:rgba(255,255,255,0.55)">ID verified &middot; [PRICE]/month</div></div><button style="min-height:36px;padding:0 14px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:12px">View</button></div>'
+s2+='<div style="flex:1"></div>\n'
+s2+='<div style="font-size:11px;color:rgba(255,255,255,0.45);text-align:center">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>\n'
+s2+='</div></div>\n'+tail
+open('OnlyYou.dc.html','w').write(s2)
+
+c=json.load(open('canvas.json'))
+c['boards']['OnlyYouGate.dc.html']={"x":13160,"y":0,"w":390,"h":844,"title":"Only You - age gate"}
+c['boards']['OnlyYou.dc.html']={"x":13630,"y":0,"w":390,"h":844,"title":"Only You"}
+for k in ['OnlyYouGate.dc.html','OnlyYou.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('OnlyYou.dc.html').read()
+old='''<div style=\"flex:1\"></div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.45);text-align:center\">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>'''
+assert old in s
+new='''<div style=\"font-size:12px;color:rgba(255,255,255,0.6);margin:14px 0 8px\">Posts</div>
+<div class=\"g\" style=\"border-radius:16px;padding:12px;margin-bottom:10px\">
+<div style=\"height:140px;border-radius:12px;background:#2a1216;position:relative\"><div style=\"position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.6);border-radius:10px;padding:3px 8px;font-size:10px\">Save &amp; share disabled</div></div>
+<div style=\"display:flex;gap:16px;margin-top:10px;font-size:12px;color:rgba(255,255,255,0.75)\"><span>&#9825; 1.8k</span><span>&#128172; 212 comments</span></div>
+</div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.5);text-align:center;margin-bottom:10px\">Likes and comments are visible, but no one can save, screenshot-share, or repost content from Only You.</div>
+<div style=\"flex:1\"></div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.45);text-align:center\">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>'''
+s=s.replace(old,new)
+open('OnlyYou.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('OnlyYou.dc.html').read()
+old='''<div style=\"flex:1\"></div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.45);text-align:center\">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>'''
+assert old in s
+new='''<div style=\"font-size:12px;color:rgba(255,255,255,0.6);margin:14px 0 8px\">Posts</div>
+<div class=\"g\" style=\"border-radius:16px;padding:12px;margin-bottom:10px\">
+<div style=\"height:140px;border-radius:12px;background:#2a1216;position:relative\"><div style=\"position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.6);border-radius:10px;padding:3px 8px;font-size:10px\">Save &amp; share disabled</div></div>
+<div style=\"display:flex;gap:16px;margin-top:10px;font-size:12px;color:rgba(255,255,255,0.75)\"><span>&#9825; 1.8k</span><span>&#128172; 212 comments</span></div>
+</div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.5);text-align:center;margin-bottom:10px\">Likes and comments are visible, but no one can save, screenshot-share, or repost content from Only You.</div>
+<div style=\"flex:1\"></div>
+<div style=\"font-size:11px;color:rgba(255,255,255,0.45);text-align:center\">Lulo keeps 15% of subscriptions and 10% of gifts here, same as the rest of the app.</div>'''
+s=s.replace(old,new)
+open('OnlyYou.dc.html','w').write(s)
+print('ok')
+"
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Owner settings</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+BADGE='<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="#0A0A0A" stroke="#C9A227" stroke-width="1" d="M12 2l2.4 2.1 3.1-.5 1 3 2.8 1.4-.7 3.1 1.8 2.6-2.4 2.2.2 3.1-3 .6-1.5 2.8-3-1-2.9 1.1-1.6-2.7-3.1-.5.1-3.1-2.4-2.3 1.8-2.5-.8-3 2.8-1.5.9-3 3.1.4z"/><path stroke="#fff" stroke-width="2" fill="none" d="M8.5 12.2l2.3 2.3 4.7-5" /></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Owner settings</div><div style="width:40px"></div></div>\n'
+s+='<div class="g" style="margin-top:16px;border-radius:18px;padding:16px;display:flex;align-items:center;gap:12px"><div style="width:52px;height:52px;border-radius:50%;background:{{gold}};display:flex;align-items:center;justify-content:center;font-weight:700;color:{{onAccent}}">LK</div><div style="flex:1"><div style="display:flex;align-items:center;gap:6px"><div style="font-weight:700;font-size:15px">Lukman</div>'+BADGE+'</div><div style="font-size:12px;color:rgba(255,255,255,0.6)">lukmankheir4@gmail.com</div></div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Owner</span></div>\n'
+s+='<div class="g" style="margin-top:10px;border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:8px;font-size:11px;color:rgba(255,255,255,0.7)">'+BADGE+' Identity verified. This account\'s badge and access level cannot be copied or spoofed by any other account.</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Owner tools</div>\n'
+rows=[("Payments & pricing","Set prices, payment methods"),("Marketplace review","Approve or reject listings"),("Content safety rules","Age gates, AI scanning, takedowns"),("Only You verification","Review creator ID submissions"),("User reports","See and act on safety reports"),("App analytics","Usage, revenue, growth")]
+for t,sub in rows:
+    s+='<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:12px 14px;margin-bottom:8px"><div style="flex:1"><div style="font-weight:700;font-size:13px">'+t+'</div><div style="font-size:11px;color:rgba(255,255,255,0.55)">'+sub+'</div></div><span style="color:rgba(255,255,255,0.4)">&#8250;</span></div>'
+s+='<div class="g" style="border-radius:14px;padding:12px 14px;margin-top:4px;font-size:11px;color:rgba(255,255,255,0.65)">This menu only appears on the verified owner account. No other user, including other admins added later, can see this screen exists.</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('OwnerSettings.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['OwnerSettings.dc.html']={"x":14100,"y":0,"w":390,"h":844,"title":"Owner settings"}
+if 'OwnerSettings.dc.html' not in c['order']: c['order'].append('OwnerSettings.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('OwnerSettings.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"5870\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Feature control</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Feature control</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Owner</span></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:22px;font-weight:700;margin-top:16px">Turn things on or off, any time</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Changes apply to everyone within minutes, no app update needed.</div>\n'
+def toggle(name, on):
+    track='rgba(201,162,39,0.5)' if on else 'rgba(255,255,255,0.2)'
+    knob='right:3px;background:{{gold}}' if on else 'left:3px;background:#8c8f96'
+    return '<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1;font-size:13px;font-weight:600">'+name+'</div><div style="width:42px;height:24px;border-radius:12px;background:'+track+';position:relative"><div style="position:absolute;top:3px;width:18px;height:18px;border-radius:50%;'+knob+'"></div></div></div>'
+s+='<div style="margin-top:14px">'
+for n,o in [("Mini games","on"==("on")),("Live streaming",True),("Only You section",True),("Group calls (beyond 4 people)",False),("New sticker packs",True),("Experimental AI voice",False)]:
+    s+=toggle(n,o)
+s+='</div>\n'
+s+='<div class="g" style="border-radius:18px;padding:14px;margin-top:4px">'
+s+='<div style="font-weight:700;font-size:14px">Add a feature with AI</div>'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Describe it, and the cloud build service prepares it for review before it goes live to users.</div>'
+s+='<div style="min-height:40px;border-radius:12px;background:rgba(0,0,0,0.3);margin-top:10px;display:flex;align-items:center;padding:0 12px;color:rgba(255,255,255,0.5);font-size:13px">e.g. "Add polls to stories"</div>'
+s+='<button style="width:100%;margin-top:10px;min-height:42px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Generate &amp; preview</button>'
+s+='</div>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.5);margin-top:10px">AI-built features go to a staging preview first, for the owner to approve, before reaching the live app.</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('FeatureControl.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['FeatureControl.dc.html']={"x":14570,"y":0,"w":390,"h":844,"title":"Feature control"}
+if 'FeatureControl.dc.html' not in c['order']: c['order'].append('FeatureControl.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('FeatureControl.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"5600\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Feature testing</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(50px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Feature testing</div><span style="font-size:10px;background:{{gold}};color:{{onAccent}};border-radius:8px;padding:3px 8px;font-weight:700">Owner</span></div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:12px">Every new feature moves through these stages. Nothing reaches real users without the owner\'s confirmation at the end.</div>\n'
+stages=[("1","Built","AI or a developer prepares the feature","done"),("2","Staging test","Runs on a private test version only the owner can open","done"),("3","Owner review","You try it yourself and confirm it works as intended","active"),("4","Live to users","Released to everyone, with a rollback switch if issues appear","upcoming")]
+s+='<div style="margin-top:16px;display:flex;flex-direction:column">'
+for num,title,sub,state in stages:
+    if state=="done": dot='background:{{gold}}'; col='rgba(255,255,255,0.55)'
+    elif state=="active": dot='background:{{gold}};box-shadow:0 0 0 4px rgba(201,162,39,0.25)'; col='#fff'
+    else: dot='background:rgba(255,255,255,0.2)'; col='rgba(255,255,255,0.45)'
+    s+='<div style="display:flex;gap:12px"><div style="display:flex;flex-direction:column;align-items:center"><div style="width:14px;height:14px;border-radius:50%;'+dot+'"></div><div style="flex:1;width:2px;background:rgba(255,255,255,0.15);margin:2px 0"></div></div><div style="padding-bottom:18px"><div style="font-weight:700;font-size:14px;color:'+col+'">'+title+'</div><div style="font-size:12px;color:rgba(255,255,255,0.55);margin-top:2px">'+sub+'</div></div></div>'
+s+='</div>\n'
+s+='<div class="g" style="border-radius:18px;padding:14px"><div style="font-weight:700;font-size:14px">Now testing: Polls on stories</div><div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px">Only visible on your owner account. Try it, then confirm below.</div><div style="display:flex;gap:8px;margin-top:10px"><button style="flex:1;min-height:42px;border-radius:14px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Confirm &amp; release</button><button style="flex:1;min-height:42px;border-radius:14px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-size:13px">Send back</button></div></div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='</div></div>\n'+tail
+open('FeatureTesting.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['FeatureTesting.dc.html']={"x":15040,"y":0,"w":390,"h":844,"title":"Feature testing"}
+if 'FeatureTesting.dc.html' not in c['order']: c['order'].append('FeatureTesting.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('FeatureTesting.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"4928\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('FeatureControl.dc.html').read()
+old = '''<div style=\"margin-top:14px\">'''
+assert old in s
+# insert tabs before the toggle list
+tabs='<div style=\"display:flex;gap:6px;margin-top:14px\"><div style=\"min-height:30px;padding:0 12px;border-radius:15px;background:{{gold}};color:{{onAccent}};font-size:11px;font-weight:700;display:flex;align-items:center\">Active</div><div style=\"min-height:30px;padding:0 12px;border-radius:15px;background:rgba(255,255,255,0.12);font-size:11px;display:flex;align-items:center\">Archived (2)</div></div>'
+s=s.replace(old, tabs+old, 1)
+# add archive/delete controls per toggle row by changing the toggle function usage block - append action row after the six toggles
+marker='''s+='</div>\n'
+s+='<div class=\"g\" style=\"border-radius:18px;padding:14px;margin-top:4px\">'
+s+='<div style=\"font-weight:700;font-size:14px\">Add a feature with AI</div>'''
+" 2>/dev/null
+grep -n "Experimental AI voice" FeatureControl.dc.html | head -1
+{"returncode":0,"stdout":"20:<div style=\"margin-top:14px\"><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">Mini games</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(201,162,39,0.5);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;right:3px;background:{{gold}}\"></div></div></div><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">Live streaming</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(201,162,39,0.5);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;right:3px;background:{{gold}}\"></div></div></div><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">Only You section</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(201,162,39,0.5);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;right:3px;background:{{gold}}\"></div></div></div><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">Group calls (beyond 4 people)</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(255,255,255,0.2);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;left:3px;background:#8c8f96\"></div></div></div><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">New sticker packs</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(201,162,39,0.5);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;right:3px;background:{{gold}}\"></div></div></div><div class=\"g\" style=\"display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px\"><div style=\"flex:1;font-size:13px;font-weight:600\">Experimental AI voice</div><div style=\"width:42px;height:24px;border-radius:12px;background:rgba(255,255,255,0.2);position:relative\"><div style=\"position:absolute;top:3px;width:18px;height:18px;border-radius:50%;left:3px;background:#8c8f96\"></div></div></div></div>\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+s = open('FeatureControl.dc.html').read()
+
+old_block_start = '<div style="margin-top:14px"><div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1;font-size:13px;font-weight:600">Mini games'
+idx = s.find(old_block_start)
+end_marker = '</div></div>\n'
+end_idx = s.find(end_marker, idx) + len(end_marker)
+assert idx != -1
+
+def toggle_row(name, on):
+    track='rgba(201,162,39,0.5)' if on else 'rgba(255,255,255,0.2)'
+    knob='right:3px;background:{{gold}}' if on else 'left:3px;background:#8c8f96'
+    archive_icon='<svg style="width:16px;height:16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"/><path d="M10 12h4"/></svg>'
+    return ('<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px">'
+            '<div style="flex:1;font-size:13px;font-weight:600">'+name+'</div>'
+            '<div style="width:42px;height:24px;border-radius:12px;background:'+track+';position:relative"><div style="position:absolute;top:3px;width:18px;height:18px;border-radius:50%;'+knob+'"></div></div>'
+            '<button aria-label="Archive '+name+'" style="width:32px;height:32px;border-radius:10px;border:0;background:rgba(255,255,255,0.1);color:#fff;display:flex;align-items:center;justify-content:center">'+archive_icon+'</button>'
+            '</div>')
+
+features = [("Mini games",True),("Live streaming",True),("Only You section",True),("Group calls (beyond 4 people)",False),("New sticker packs",True),("Experimental AI voice",False)]
+new_block = '<div style="margin-top:14px">' + ''.join(toggle_row(n,o) for n,o in features) + '</div>\n'
+
+s = s[:idx] + new_block + s[end_idx:]
+
+# add tabs before this block
+s = s.replace('<div style="margin-top:14px"><div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1;font-size:13px;font-weight:600">Mini games',
+              '<div style="display:flex;gap:6px;margin-top:14px"><div style="min-height:30px;padding:0 12px;border-radius:15px;background:{{gold}};color:{{onAccent}};font-size:11px;font-weight:700;display:flex;align-items:center">Active</div><div style="min-height:30px;padding:0 12px;border-radius:15px;background:rgba(255,255,255,0.12);font-size:11px;display:flex;align-items:center">Archived (2)</div></div>\n<div style="margin-top:10px"><div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1;font-size:13px;font-weight:600">Mini games')
+
+# insert archived section + delete-forever note before "Add a feature with AI" card
+marker = '<div class="g" style="border-radius:18px;padding:14px;margin-top:4px">\n<div style="font-weight:700;font-size:14px">Add a feature with AI</div>'
+archived = ('<div style="font-size:12px;color:rgba(255,255,255,0.55);margin:4px 0 8px">Archived features</div>'
+            '<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1"><div style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.7)">Old filter pack (2025)</div><div style="font-size:11px;color:rgba(255,255,255,0.45)">Hidden from users, data kept</div></div>'
+            '<button style="min-height:30px;padding:0 10px;border-radius:12px;border:1px solid rgba(255,255,255,0.3);background:transparent;color:#fff;font-size:11px">Restore</button>'
+            '<button style="min-height:30px;padding:0 10px;border-radius:12px;border:0;background:rgba(220,100,100,0.25);color:#E67A7A;font-size:11px">Delete forever</button></div>\n')
+s = s.replace(marker, archived + marker, 1)
+
+open('FeatureControl.dc.html','w').write(s)
+print("OK", len(s))
+PYEOF
+{"returncode":0,"stdout":"OK 8683\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 -c "
+s=open('OwnerSettings.dc.html').read()
+old = '<div style=\"font-size:12px;color:rgba(255,255,255,0.6)\">lukmankheir4@gmail.com</div>'
+assert old in s
+new = old + '<div style=\"font-size:12px;color:rgba(255,255,255,0.6)\">+255 772 370 002</div>'
+s = s.replace(old, new)
+open('OwnerSettings.dc.html','w').write(s)
+"
+{"returncode":0,"stdout":"","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(18px) saturate(170%);backdrop-filter:blur(18px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}@keyframes livepulse{0%,100%{opacity:1}50%{opacity:0.5}}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Live stream</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#1b140a">\n'
+s+='<div style="position:absolute;inset:0;background:radial-gradient(circle at 60% 30%,#3a2f12,#0A0A0A 70%)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between;padding:18px 14px 0">'
+s+='<div style="display:flex;align-items:center;gap:8px"><div style="width:36px;height:36px;border-radius:50%;background:#8A4B2E"></div><div><div style="font-size:13px;font-weight:700">Lola</div><div style="display:flex;align-items:center;gap:4px;font-size:10px"><span style="width:6px;height:6px;border-radius:50%;background:#E6504A;animation:livepulse 1.4s infinite"></span> LIVE</div></div></div>'
+s+='<div class="g" style="padding:5px 10px;border-radius:12px;font-size:11px">842 watching</div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+# gift fly-up
+s+='<div style="position:absolute;right:20px;bottom:230px;font-size:22px;animation:livepulse 1.8s infinite">&#128081;</div>\n'
+# comments
+s+='<div style="padding:0 14px;display:flex;flex-direction:column;gap:6px;max-height:160px;overflow:hidden">'
+for n,m in [("Kenji","This is amazing 🔥"),("Amina","Sending a gift now"),("Dre","Hiii from Dar")]:
+    s+='<div style="align-self:flex-start;background:rgba(0,0,0,0.4);border-radius:14px;padding:6px 12px;font-size:12px"><b>'+n+'</b> '+m+'</div>'
+s+='</div>\n'
+# bottom bar
+s+='<div style="display:flex;align-items:center;gap:8px;padding:12px 14px 26px">'
+s+='<div style="flex:1;min-height:40px;border-radius:20px;background:rgba(255,255,255,0.12);display:flex;align-items:center;padding:0 14px;color:rgba(255,255,255,0.6);font-size:12px">Comment</div>'
+s+='<button aria-label="Send gift" style="width:40px;height:40px;border-radius:50%;border:0;background:{{gold}};display:flex;align-items:center;justify-content:center;font-size:18px">&#128142;</button>'
+s+='<button aria-label="Share" style="width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,0.12);color:#fff;display:flex;align-items:center;justify-content:center"><svg style="width:17px;height:17px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6l6.8-3.8M8.6 13.4l6.8 3.8"/></svg></button>'
+s+='<button aria-label="Leave" style="width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,0.4);color:#fff;font-size:16px">&#10005;</button>'
+s+='</div>\n'
+s+='</div></div>\n'+tail
+open('LiveView.dc.html','w').write(s)
+
+s2=head.replace('Live stream','Go live')
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s2+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Close" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:18px">&#10005;</button><div style="font-weight:700">Go Live</div><div style="width:40px"></div></div>\n'
+s2+='<div style="flex:1;margin-top:14px;border-radius:20px;background:#171a1f;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.4)">Camera preview</div>\n'
+s2+='<div class="g" style="margin-top:14px;border-radius:16px;padding:12px 14px">'
+s2+='<div style="min-height:40px;border-radius:12px;background:rgba(0,0,0,0.3);display:flex;align-items:center;padding:0 12px;color:rgba(255,255,255,0.6);font-size:13px">Add a title for your stream</div>'
+s2+='</div>\n'
+s2+='<div style="display:flex;gap:8px;margin-top:10px">'
+for lbl in ["Public","Followers only","Only You"]:
+    sel=lbl=="Public"
+    bg='{{gold}}' if sel else 'rgba(255,255,255,0.12)'
+    col='{{onAccent}}' if sel else '#fff'
+    s2+='<div class="g" style="flex:1;text-align:center;padding:10px 0;border-radius:14px;background:'+bg+';color:'+col+';font-size:12px;font-weight:700">'+lbl+'</div>'
+s2+='</div>\n'
+s2+='<button style="width:100%;margin-top:16px;min-height:52px;border-radius:26px;border:0;background:#E6504A;color:#fff;font-size:16px;font-weight:700">Start Live</button>\n'
+s2+='</div></div>\n'+tail
+open('GoLive.dc.html','w').write(s2)
+
+c=json.load(open('canvas.json'))
+c['boards']['LiveView.dc.html']={"x":15510,"y":0,"w":390,"h":844,"title":"Live stream (viewer)"}
+c['boards']['GoLive.dc.html']={"x":15980,"y":0,"w":390,"h":844,"title":"Go live (start)"}
+for k in ['LiveView.dc.html','GoLive.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+{"returncode":0,"stdout":"ok\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+def head(t): return '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>'+t+'</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+
+# Language picker (first launch)
+s=head("Choose your language")
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:28px 20px 20px;align-items:center">\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:28px;font-weight:700;margin-top:30px">Lulo</div>\n'
+s+='<div style="font-size:14px;color:rgba(255,255,255,0.65);margin-top:10px;text-align:center">We noticed you might be in Tanzania. Choose your language, you can change it any time.</div>\n'
+s+='<div style="width:100%;margin-top:22px;display:flex;flex-direction:column;gap:8px">'
+langs=[("English","English",True),("Kiswahili","Kiswahili",False),("Fran\u00e7ais","French",False),("Espa\u00f1ol","Spanish",False),("\u0627\u0644\u0639\u0631\u0628\u064a\u0629","Arabic",False),("Ti\u1ebfng Vi\u1ec7t","Vietnamese",False)]
+for native,eng,sel in langs:
+    ring='2px solid {{accent}}' if sel else '2px solid rgba(255,255,255,0.15)'
+    s+='<div class="g" style="border-radius:14px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;border:'+ring+'"><div style="font-size:14px;font-weight:600">'+native+'</div><div style="font-size:11px;color:rgba(255,255,255,0.5)">'+eng+'</div></div>'
+s+='</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<button style="width:100%;min-height:50px;border-radius:25px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Continue</button>\n'
+s+='</div></div>\n'+tail
+open('LanguagePicker.dc.html','w').write(s)
+
+# Sign up (email/phone + verification method)
+s2=head("Sign up")
+s2+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s2+='<div style="position:absolute;right:-70px;top:-30px;width:300px;height:300px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s2+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:40px 20px 20px">\n'
+s2+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:26px;font-weight:700">Join Lulo</div>\n'
+s2+='<div style="font-size:13px;color:rgba(255,255,255,0.6);margin-top:4px">Available worldwide, any phone number or email</div>\n'
+s2+='<div style="display:flex;gap:6px;margin-top:18px"><div class="g" style="flex:1;text-align:center;padding:10px 0;border-radius:14px;background:{{gold}};color:{{onAccent}};font-weight:700;font-size:13px">Phone</div><div class="g" style="flex:1;text-align:center;padding:10px 0;border-radius:14px;font-size:13px">Email</div></div>\n'
+s2+='<div class="g" style="margin-top:14px;border-radius:14px;padding:4px;display:flex;align-items:center"><div style="padding:0 10px;font-size:13px;color:rgba(255,255,255,0.7);border-right:1px solid rgba(255,255,255,0.15)">&#127481;&#127487; +255</div><div style="flex:1;padding:10px 12px;color:rgba(255,255,255,0.5);font-size:13px">Phone number</div></div>\n'
+s2+='<div style="font-size:12px;color:rgba(255,255,255,0.55);margin-top:14px">Send my code by</div>\n'
+s2+='<div style="display:flex;gap:8px;margin-top:8px">'
+for lbl,sel in [("SMS",True),("WhatsApp",False),("Email",False)]:
+    bg='{{gold}}' if sel else 'rgba(255,255,255,0.1)'
+    col='{{onAccent}}' if sel else '#fff'
+    s2+='<div class="g" style="flex:1;text-align:center;padding:10px 0;border-radius:14px;background:'+bg+';color:'+col+';font-size:12px;font-weight:700">'+lbl+'</div>'
+s2+='</div>\n'
+s2+='<button style="width:100%;margin-top:18px;min-height:50px;border-radius:25px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Send verification code</button>\n'
+s2+='<div style="font-size:11px;color:rgba(255,255,255,0.45);text-align:center;margin-top:12px">By continuing you confirm you are 16 or older.</div>\n'
+s2+='<div style="flex:1"></div>\n'
+s2+='</div></div>\n'+tail
+open('SignUp.dc.html','w').write(s2)
+
+# OTP screen
+s3=head("Enter code")
+s3+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s3+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s3+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:40px 20px 20px;align-items:center">\n'
+s3+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:24px;font-weight:700">Enter the code</div>\n'
+s3+='<div style="font-size:13px;color:rgba(255,255,255,0.6);margin-top:6px;text-align:center">Sent via WhatsApp to +255 772 370 002</div>\n'
+s3+='<div style="display:flex;gap:10px;margin-top:22px">'
+for d in "2481":
+    s3+='<div class="g" style="width:48px;height:58px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700">'+d+'</div>'
+s3+='</div>\n'
+s3+='<div style="font-size:12px;color:{{accent}};margin-top:16px">Expires in 0:52</div>\n'
+s3+='<div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:6px">Didn\'t get it? <span style="color:{{accent}}">Resend</span></div>\n'
+s3+='<div style="flex:1"></div>\n'
+s3+='<button style="width:100%;min-height:50px;border-radius:25px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Verify &amp; continue</button>\n'
+s3+='</div></div>\n'+tail
+open('OTP.dc.html','w').write(s3)
+
+c=json.load(open('canvas.json'))
+c['boards']['LanguagePicker.dc.html']={"x":16450,"y":0,"w":390,"h":844,"title":"Choose language"}
+c['boards']['SignUp.dc.html']={"x":16920,"y":0,"w":390,"h":844,"title":"Sign up worldwide"}
+c['boards']['OTP.dc.html']={"x":17390,"y":0,"w":390,"h":844,"title":"Verification code"}
+for k in ['LanguagePicker.dc.html','SignUp.dc.html','OTP.dc.html']:
+    if k not in c['order']: c['order'].append(k)
+json.dump(c,open('canvas.json','w'))
+print("ok")
+PYEOF
+{"returncode":0,"stdout":"ok\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style=".g{background:rgba(255,255,255,0.14);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border:1px solid rgba(255,255,255,0.26)}body{margin:0}button{font-family:inherit}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Edit username</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+LOCK='<svg style="width:13px;height:13px" viewBox="0 0 24 24" fill="none" stroke="{{accent}}" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-60px;top:-20px;width:280px;height:280px;border-radius:50%;background:#C9A227;opacity:0.5;filter:blur(55px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;padding:18px 16px 14px">\n'
+s+='<div style="display:flex;align-items:center;justify-content:space-between"><button aria-label="Back" style="width:40px;height:40px;border-radius:13px;border:0;background:rgba(255,255,255,0.14);color:#fff;font-size:20px">&#8249;</button><div style="font-weight:700">Edit profile</div><div style="width:40px"></div></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:22px;font-weight:700;margin-top:16px">Username &amp; nickname</div>\n'
+s+='<div class="g" style="margin-top:14px;border-radius:16px;padding:14px">'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6)">Username</div>'
+s+='<div style="margin-top:6px;display:flex;align-items:center;gap:8px"><div style="flex:1;min-height:42px;border-radius:12px;background:rgba(0,0,0,0.3);display:flex;align-items:center;padding:0 12px;color:#fff;font-size:14px">@lukman</div></div>'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:12px">Nickname</div>'
+s+='<div style="margin-top:6px;min-height:42px;border-radius:12px;background:rgba(0,0,0,0.3);display:flex;align-items:center;padding:0 12px;color:#fff;font-size:14px">The Gold Runner</div>'
+s+='</div>\n'
+s+='<div class="g" style="margin-top:10px;border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,0.75)">'+LOCK+' Your username and nickname can be anything, they never have to match your real name, email, or phone number.</div>\n'
+s+='<div style="font-size:12px;color:rgba(255,255,255,0.6);margin:16px 0 8px">Contact info on file</div>\n'
+for label,val in [("Email","lukmankheir4@gmail.com"),("Phone","+255 772 370 002")]:
+    s+='<div class="g" style="display:flex;align-items:center;gap:10px;border-radius:14px;padding:11px 14px;margin-bottom:8px"><div style="flex:1"><div style="font-size:12px;color:rgba(255,255,255,0.55)">'+label+'</div><div style="font-size:14px">'+val+'</div></div><span style="font-size:10px;background:rgba(255,255,255,0.15);border-radius:8px;padding:3px 8px">Hidden from others</span></div>'
+s+='<div class="g" style="border-radius:14px;padding:12px 14px;font-size:11px;color:rgba(255,255,255,0.6)">No other user can ever see this. It\'s only used to verify it\'s really you, recover your account if you\'re locked out, and let our support team help you if you reach out.</div>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<button style="width:100%;min-height:50px;border-radius:25px;border:0;background:{{gold}};color:{{onAccent}};font-weight:700">Save changes</button>\n'
+s+='</div></div>\n'+tail
+open('EditUsername.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['EditUsername.dc.html']={"x":17860,"y":0,"w":390,"h":844,"title":"Edit username"}
+if 'EditUsername.dc.html' not in c['order']: c['order'].append('EditUsername.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('EditUsername.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"4315\n","stderr":""}
+cd /mnt/user-data/outputs/artifacts/e0126581-cc17-41a3-914c-78cdc6a58485/project
+python3 - <<'PYEOF'
+import json
+FONTS="Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;700"
+style="body{margin:0}button{font-family:inherit}@keyframes shine{0%,100%{opacity:0.7}50%{opacity:1}}"
+head='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<title>Welcome</title>\n<script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n<link href="https://fonts.googleapis.com/css2?family='+FONTS+'&display=swap" rel="stylesheet">\n<style>'+style+'</style>\n</helmet>\n'
+tail='</x-dc>\n<script type="text/x-dc" data-dc-script data-props=\'{"accent":{"editor":"color","default":"#C9A227"},"$preview":{"width":390,"height":844}}\'>\nclass Component extends DCLogic {\nrenderVals() {\nconst a = this.props.accent ?? "#C9A227";\nreturn { accent: a, gold: "linear-gradient(135deg,"+a+" 0%,#F3DE8E 50%,"+a+" 100%)", onAccent: "#0A0A0A" };\n}\n}\n</script>\n</body>\n</html>\n'
+s=head
+s+='<div style="width:390px;height:844px;box-sizing:border-box;position:relative;overflow:hidden;font-family:\'Space Grotesk\',Arial,sans-serif;color:#fff;background:#0A0A0A">\n'
+s+='<div style="position:absolute;left:-90px;top:-60px;width:340px;height:340px;border-radius:50%;background:#C9A227;opacity:0.55;filter:blur(60px);animation:shine 4s ease-in-out infinite"></div>\n'
+s+='<div style="position:absolute;right:-100px;bottom:120px;width:320px;height:320px;border-radius:50%;background:#8C8F96;opacity:0.4;filter:blur(60px)"></div>\n'
+s+='<div style="position:relative;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px">\n'
+s+='<div style="width:84px;height:84px;border-radius:24px;background:{{gold}};display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(201,162,39,0.4)"><span style="font-family:\'Playfair Display\',Georgia,serif;font-size:30px;font-weight:700;color:{{onAccent}}">L</span></div>\n'
+s+='<div style="font-family:\'Playfair Display\',Georgia,serif;font-size:34px;font-weight:700;margin-top:18px">Welcome to Lulo</div>\n'
+s+='<div style="font-size:14px;color:rgba(255,255,255,0.65);margin-top:8px;text-align:center;max-width:280px">Everyone\'s invited. Connect, create, and stay close to the people who matter, your way.</div>\n'
+s+='<div style="width:100%;margin-top:36px;display:flex;flex-direction:column;gap:12px">\n'
+s+='<button style="width:100%;min-height:54px;border-radius:27px;border:0;background:{{gold}};color:{{onAccent}};font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:10px"><svg style="width:20px;height:20px" viewBox="0 0 24 24" fill="none" stroke="{{onAccent}}" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg> Continue with phone number</button>\n'
+s+='<button style="width:100%;min-height:54px;border-radius:27px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.08);color:#fff;font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:10px"><svg width="20" height="20" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 16 19 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4c-7.4 0-13.8 4.1-17.1 10.1z"/><path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.3-5.2l-6.6-5.6C29.6 34.9 26.9 36 24 36c-5.3 0-9.7-3.3-11.3-8l-6.6 5.1C9.9 39.7 16.4 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4 5.5l6.6 5.6C40.5 36.8 44 31 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg> Continue with Google</button>\n'
+s+='</div>\n'
+s+='<div style="width:100%;display:flex;align-items:center;gap:10px;margin-top:22px"><div style="flex:1;height:1px;background:rgba(255,255,255,0.15)"></div><div style="font-size:12px;color:rgba(255,255,255,0.45)">or</div><div style="flex:1;height:1px;background:rgba(255,255,255,0.15)"></div></div>\n'
+s+='<button style="width:100%;margin-top:14px;min-height:50px;border-radius:25px;border:1px solid rgba(255,255,255,0.25);background:transparent;color:rgba(255,255,255,0.85);font-size:14px;font-weight:600">Continue with email</button>\n'
+s+='<div style="flex:1"></div>\n'
+s+='<div style="font-size:11px;color:rgba(255,255,255,0.45);text-align:center;max-width:300px">By continuing, you agree to our Terms and confirm you\'re 16 or older. Available worldwide, in your language.</div>\n'
+s+='</div></div>\n'+tail
+open('Welcome.dc.html','w').write(s)
+c=json.load(open('canvas.json'))
+c['boards']['Welcome.dc.html']={"x":18330,"y":0,"w":390,"h":844,"title":"Welcome / Sign in"}
+if 'Welcome.dc.html' not in c['order']: c['order'].append('Welcome.dc.html')
+json.dump(c,open('canvas.json','w'))
+print(len(open('Welcome.dc.html').read()))
+PYEOF
+{"returncode":0,"stdout":"4549\n","stderr":""}
